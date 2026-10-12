@@ -1,0 +1,92 @@
+txn_id,date,description,amount,category,difficulty,note
+G001,2026-05-06,GOOGLE *ADS5580,-832.12,Advertising & Marketing,typical,
+G002,2026-02-06,GOOGLE *ADS6825,-738.6,Advertising & Marketing,typical,
+G003,2026-06-06,GOOGLE *ADS7763,-529.7,Advertising & Marketing,typical,
+G004,2026-09-06,GOOGLE *ADS6017,-689.42,Advertising & Marketing,typical,
+G005,2026-01-06,GOOGLE *ADS1642,-877.21,Advertising & Marketing,typical,
+G006,2026-01-19,FACEBK *ADS UVW53E,-451.99,Advertising & Marketing,typical,
+G007,2026-07-31,MONTHLY MAINTENANCE FEE,-25.0,Bank & Merchant Fees,typical,
+G008,2026-01-04,GOOGLE *CLOUD DN581,-102.18,Cloud Hosting,typical,
+G009,2026-04-04,GOOGLE *CLOUD 158Z6,-64.62,Cloud Hosting,typical,
+G010,2026-12-04,GOOGLE *CLOUD U7WKP,-66.25,Cloud Hosting,typical,
+G011,2026-09-04,GOOGLE *CLOUD C4UDY,-46.9,Cloud Hosting,typical,
+G012,2026-03-04,GOOGLE *CLOUD 29BE2,-66.05,Cloud Hosting,typical,
+G013,2026-08-04,GOOGLE *CLOUD 8HSSR,-85.35,Cloud Hosting,typical,
+G014,2026-02-22,ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0212,-2587.2,Contractors,typical,
+G015,2026-04-22,ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0414,-2455.68,Contractors,typical,
+G016,2026-08-22,ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0819,-2618.01,Contractors,typical,
+G017,2026-01-22,ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0121,-2524.08,Contractors,typical,
+G018,2026-05-22,ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0518,-2781.38,Contractors,typical,
+G019,2026-10-22,ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 1026,-1964.07,Contractors,typical,
+G020,2026-05-13,STARBUCKS STORE 61498,-79.26,Meals,typical,
+G021,2026-04-14,STARBUCKS STORE 21764,-9.73,Meals,typical,
+G022,2026-03-24,PANERA BREAD #569,-9.39,Meals,typical,
+G023,2026-11-22,STARBUCKS STORE 40346,-67.04,Meals,typical,
+G024,2026-12-10,DOORDASH*PANERA,-56.38,Meals,typical,
+G025,2026-02-14,STARBUCKS STORE 55089,-68.24,Meals,typical,
+G026,2026-01-18,AMAZON MKTPL*5V2SE AMZN.COM/BILL WA,-43.3,Office Supplies,typical,
+G027,2026-09-28,AMAZON MKTPL*KOZM4 AMZN.COM/BILL WA,-53.36,Office Supplies,typical,
+G028,2026-08-10,AMAZON MKTPL*M2PLP AMZN.COM/BILL WA,-61.5,Office Supplies,typical,
+G029,2026-03-18,AMAZON MKTPL*MR268 AMZN.COM/BILL WA,-150.14,Office Supplies,typical,
+G030,2026-02-27,AMAZON MKTPL REFUND*MPZOM,38.29,Office Supplies,typical,
+G031,2026-10-09,STAPLES 007770,-86.69,Office Supplies,typical,
+G032,2026-07-15,IRS USATAXPYMT 858992171172,-3500.0,Owner Draws,typical,
+G033,2026-01-15,IRS USATAXPYMT 113887072746,-3500.0,Owner Draws,typical,
+G034,2026-10-15,IRS USATAXPYMT 512344130882,-3500.0,Owner Draws,typical,
+G035,2026-04-15,IRS USATAXPYMT 711824044919,-3500.0,Owner Draws,typical,
+G036,2026-09-30,GUSTO TAX UJZD,-2139.47,Payroll Taxes,typical,
+G037,2026-04-15,GUSTO FEE UJZD,-80.0,Professional Fees,typical,
+G038,2026-06-11,LEGALZOOM*ORDER 888-773-0888,-249.0,Professional Fees,typical,
+G039,2026-10-01,ONLINE PMT RIVERSIDE PROPERTIES LLC,-3200.0,Rent,typical,
+G040,2026-03-15,STRIPE TRANSFER ST-IDW370,2619.71,Service Revenue,typical,
+G041,2026-03-08,WIRE IN BLUEWAVE HEALTH REF 13669,8014.68,Service Revenue,typical,
+G042,2026-10-14,ACH CREDIT KESTREL LOGISTICS INV-1172,10544.87,Service Revenue,typical,
+G043,2026-10-05,STRIPE TRANSFER ST-7DX297,2076.1,Service Revenue,typical,
+G044,2026-10-07,ACH CREDIT KESTREL LOGISTICS INV-1413,6128.61,Service Revenue,typical,
+G045,2026-12-13,ACH CREDIT SUMMIT LEARNING INV-1595,7286.62,Service Revenue,typical,
+G046,2026-11-03,ADOBE *CREATIVE CLD ADOBE.LY/ENUS,-179.97,Software & Subscriptions,typical,
+G047,2026-10-11,ZOOM.US 888-799-9666,-15.99,Software & Subscriptions,typical,
+G048,2026-03-09,FIGMA MONTHLY,-45.0,Software & Subscriptions,typical,
+G049,2026-03-07,SLACK T02KX9 DUBLIN,-43.75,Software & Subscriptions,typical,
+G050,2026-12-12,INTUIT *QBOOKS ONLINE,-90.0,Software & Subscriptions,typical,
+G051,2026-07-07,DELTA AIR 8500337632,-361.16,Travel,typical,
+G052,2026-10-02,DELTA AIR 4038571759,-507.8,Travel,typical,
+G053,2026-03-06,DELTA AIR 5090974082,-489.39,Travel,typical,
+G054,2026-06-13,MARRIOTT NEW YORK,-517.83,Travel,typical,
+G055,2026-04-12,DELTA AIR 2389567515,-362.06,Travel,typical,
+G056,2026-08-02,DELTA AIR 2501948479,-363.11,Travel,typical,
+G057,2026-06-18,COMCAST BUSINESS 800-391-3000,-189.95,Utilities,typical,
+G058,2026-11-20,PEPCO BILL PAY,-250.38,Utilities,typical,
+G059,2026-08-15,GUSTO NET PAY UJZD,-7978.79,Wages,typical,
+G060,2026-01-15,AMAZON WEB SERVICES AWS.AMAZON.CO WA,-412.18,Cloud Hosting,hard,AWS vs Amazon Marketplace
+G061,2026-02-15,AMAZON MKTPL*7HG2Q AMZN.COM/BILL WA,-58.4,Office Supplies,hard,Amazon Marketplace vs AWS
+G062,2026-03-15,AMAZON MKTPL REFUND*K2J8D,42.99,Office Supplies,hard,Refund keeps the original category
+G063,2026-04-15,UBER *EATS 8005928996,-38.42,Meals,hard,"Uber Eats is food, not travel"
+G064,2026-05-15,UBER *TRIP HELP.UBER.COM,-24.1,Travel,hard,"Uber trip is travel, not meals"
+G065,2026-06-15,GOOGLE *ADS4471,-612.0,Advertising & Marketing,hard,Google Ads vs Workspace vs Cloud
+G066,2026-07-15,GOOGLE *WORKSPACE NORTHWI,-84.0,Software & Subscriptions,hard,Google Workspace vs Ads
+G067,2026-08-15,GOOGLE *CLOUD 7HX2K,-88.31,Cloud Hosting,hard,Google Cloud vs Workspace
+G068,2026-09-15,IRS USATAXPYMT 270612345678,-3500.0,Owner Draws,hard,Owner's estimated tax for pass-through LLC
+G069,2026-10-15,ONLINE TRANSFER TO SAV XXXXXX3301,-2000.0,Savings Account,hard,"Own savings, not an owner draw"
+G070,2026-11-15,ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL,-4000.0,Owner Draws,hard,Personal account = draw
+G071,2026-12-15,ONLINE TRANSFER FROM SAV XXXXXX3301,5000.0,Savings Account,hard,Inflow that is not revenue
+G072,2026-01-15,DEPOSIT FROM M PATEL PERSONAL CHK,10000.0,Owner Contributions,hard,Inflow that is not revenue
+G073,2026-02-15,SBA LOAN PMT 4471,-1050.0,Loan Payable,hard,Loan payment is not an expense
+G074,2026-03-15,APPLE STORE #R102,-2899.0,Equipment,hard,"Capitalized equipment, not supplies"
+G075,2026-04-15,DELL MARKETING L.P.,-1640.0,Equipment,hard,Capitalized equipment
+G076,2026-05-15,APPLE.COM/BILL 866-712-7753,-9.99,Software & Subscriptions,hard,Apple subscription vs Apple Store
+G077,2026-06-15,STRIPE TRANSFER ST-K2J8X1,2315.4,Service Revenue,hard,Processor payout is revenue
+G078,2026-07-15,WIRE IN ACME CORP REF 88812,12500.0,Service Revenue,hard,Client wire
+G079,2026-08-15,INTEREST PAYMENT,6.12,Interest Income,hard,"Bank interest is other income, not revenue"
+G080,2026-09-15,GUSTO FEE 9QX1,-80.0,Professional Fees,hard,"Payroll processing fee, not wages"
+G081,2026-10-15,GUSTO TAX 9QX1,-2214.55,Payroll Taxes,hard,Payroll tax vs wages
+G082,2026-11-15,ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0314,-2400.0,Contractors,hard,Payment to individual with invoice memo
+G083,2026-12-15,CHECK #1043,-1200.0,Uncategorized,hard,No payee information: should go to review
+G084,2026-01-15,VENMO PAYMENT 1029384756,-150.0,Uncategorized,hard,Unexplained P2P payment: should go to review
+G085,2026-02-15,LINKEDIN *JOBS,-295.0,Advertising & Marketing,hard,Job post is advertising
+G086,2026-03-15,THE HARTFORD INS PREM,-1140.0,Insurance,hard,
+G087,2026-04-15,SMITH & CO CPA,-950.0,Professional Fees,hard,
+G088,2026-05-15,WIRE TRANSFER FEE,-30.0,Bank & Merchant Fees,hard,"Fee, not a transfer"
+G089,2026-06-15,DOORDASH*SHAKE SHACK,-27.84,Meals,hard,
+G090,2026-07-15,MARRIOTT CHICAGO,-512.7,Travel,hard,
+G091,2026-08-15,FACEBK *ADS QW9E2R,-340.0,Advertising & Marketing,hard,Meta ads billing descriptor

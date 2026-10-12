@@ -1,0 +1,4251 @@
+{
+ "name": "northwind_full_year_2026",
+ "description": "Same business as the sample file, full calendar year",
+ "config": {
+  "business_name": "Northwind Studio LLC",
+  "period_start": "2026-01-01",
+  "period_end": "2026-12-31",
+  "_opening_balances_note": "Balances as of period_start, keyed by account code, entered as POSITIVE natural amounts (the ledger applies debit/credit signs). Assets must equal liabilities + equity.",
+  "opening_balances": {
+   "1000": 48500.0,
+   "1010": 20000.0,
+   "1500": 18000.0,
+   "1510": 6000.0,
+   "2100": 35000.0,
+   "3000": 25000.0,
+   "3900": 20500.0
+  },
+  "loan": {
+   "account": "2100",
+   "annual_interest_rate": 0.075
+  },
+  "depreciation": {
+   "opening_equipment_annual_depreciation": 3600.0,
+   "new_equipment_useful_life_months": 36
+  },
+  "categorizer": {
+   "batch_size": 40,
+   "review_confidence_threshold": 0.8
+  }
+ },
+ "transactions": [
+  {
+   "txn_id": "T0001",
+   "date": "2026-01-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 45300.0
+  },
+  {
+   "txn_id": "T0002",
+   "date": "2026-01-02",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1628",
+   "amount": 5565.07,
+   "balance": 50865.07
+  },
+  {
+   "txn_id": "T0003",
+   "date": "2026-01-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -497.4,
+   "balance": 50367.67
+  },
+  {
+   "txn_id": "T0004",
+   "date": "2026-01-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 50187.7
+  },
+  {
+   "txn_id": "T0005",
+   "date": "2026-01-03",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -52.24,
+   "balance": 50135.46
+  },
+  {
+   "txn_id": "T0006",
+   "date": "2026-01-04",
+   "description": "STRIPE TRANSFER ST-Z95H16",
+   "amount": 2565.61,
+   "balance": 52701.07
+  },
+  {
+   "txn_id": "T0007",
+   "date": "2026-01-04",
+   "description": "GOOGLE *CLOUD 467BO",
+   "amount": -101.27,
+   "balance": 52599.8
+  },
+  {
+   "txn_id": "T0008",
+   "date": "2026-01-04",
+   "description": "STARBUCKS STORE 63911",
+   "amount": -8.02,
+   "balance": 52591.78
+  },
+  {
+   "txn_id": "T0009",
+   "date": "2026-01-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 51541.78
+  },
+  {
+   "txn_id": "T0010",
+   "date": "2026-01-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 51457.78
+  },
+  {
+   "txn_id": "T0011",
+   "date": "2026-01-05",
+   "description": "AMAZON MKTPL*348Q9 AMZN.COM/BILL WA",
+   "amount": -87.32,
+   "balance": 51370.46
+  },
+  {
+   "txn_id": "T0012",
+   "date": "2026-01-06",
+   "description": "AMAZON MKTPL REFUND*375XM",
+   "amount": 26.7,
+   "balance": 51397.16
+  },
+  {
+   "txn_id": "T0013",
+   "date": "2026-01-06",
+   "description": "GOOGLE *ADS8955",
+   "amount": -579.99,
+   "balance": 50817.17
+  },
+  {
+   "txn_id": "T0014",
+   "date": "2026-01-06",
+   "description": "DOORDASH*SHAKE SHACK",
+   "amount": -8.4,
+   "balance": 50808.77
+  },
+  {
+   "txn_id": "T0015",
+   "date": "2026-01-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 50765.02
+  },
+  {
+   "txn_id": "T0016",
+   "date": "2026-01-08",
+   "description": "ACH CREDIT ORBIT FOODS INV-1406",
+   "amount": 6760.59,
+   "balance": 57525.61
+  },
+  {
+   "txn_id": "T0017",
+   "date": "2026-01-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 57480.61
+  },
+  {
+   "txn_id": "T0018",
+   "date": "2026-01-10",
+   "description": "THE HARTFORD INS PREM",
+   "amount": -1140.0,
+   "balance": 56340.61
+  },
+  {
+   "txn_id": "T0019",
+   "date": "2026-01-11",
+   "description": "STRIPE TRANSFER ST-3JTBXX",
+   "amount": 1814.36,
+   "balance": 58154.97
+  },
+  {
+   "txn_id": "T0020",
+   "date": "2026-01-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 58138.98
+  },
+  {
+   "txn_id": "T0021",
+   "date": "2026-01-11",
+   "description": "AMAZON MKTPL*964Z1 AMZN.COM/BILL WA",
+   "amount": -56.39,
+   "balance": 58082.59
+  },
+  {
+   "txn_id": "T0022",
+   "date": "2026-01-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 57992.59
+  },
+  {
+   "txn_id": "T0023",
+   "date": "2026-01-12",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -35.05,
+   "balance": 57957.54
+  },
+  {
+   "txn_id": "T0024",
+   "date": "2026-01-13",
+   "description": "PANERA BREAD #372",
+   "amount": -15.44,
+   "balance": 57942.1
+  },
+  {
+   "txn_id": "T0025",
+   "date": "2026-01-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 57932.11
+  },
+  {
+   "txn_id": "T0026",
+   "date": "2026-01-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8150.17,
+   "balance": 49781.94
+  },
+  {
+   "txn_id": "T0027",
+   "date": "2026-01-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2179.63,
+   "balance": 47602.31
+  },
+  {
+   "txn_id": "T0028",
+   "date": "2026-01-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 47522.31
+  },
+  {
+   "txn_id": "T0029",
+   "date": "2026-01-15",
+   "description": "IRS USATAXPYMT 863971576088",
+   "amount": -3500.0,
+   "balance": 44022.31
+  },
+  {
+   "txn_id": "T0030",
+   "date": "2026-01-16",
+   "description": "WIRE IN KESTREL LOGISTICS REF 11505",
+   "amount": 12518.1,
+   "balance": 56540.41
+  },
+  {
+   "txn_id": "T0031",
+   "date": "2026-01-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 56350.46
+  },
+  {
+   "txn_id": "T0032",
+   "date": "2026-01-18",
+   "description": "AMAZON MKTPL*G14J4 AMZN.COM/BILL WA",
+   "amount": -162.07,
+   "balance": 56188.39
+  },
+  {
+   "txn_id": "T0033",
+   "date": "2026-01-19",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -44.54,
+   "balance": 56143.85
+  },
+  {
+   "txn_id": "T0034",
+   "date": "2026-01-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -289.08,
+   "balance": 55854.77
+  },
+  {
+   "txn_id": "T0035",
+   "date": "2026-01-21",
+   "description": "WIRE IN ACME CORP REF 91459",
+   "amount": 10452.47,
+   "balance": 66307.24
+  },
+  {
+   "txn_id": "T0036",
+   "date": "2026-01-21",
+   "description": "STARBUCKS STORE 86105",
+   "amount": -69.12,
+   "balance": 66238.12
+  },
+  {
+   "txn_id": "T0037",
+   "date": "2026-01-21",
+   "description": "WIRE TRANSFER FEE",
+   "amount": -30.0,
+   "balance": 66208.12
+  },
+  {
+   "txn_id": "T0038",
+   "date": "2026-01-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0114",
+   "amount": -2318.71,
+   "balance": 63889.41
+  },
+  {
+   "txn_id": "T0039",
+   "date": "2026-01-24",
+   "description": "PANERA BREAD #688",
+   "amount": -63.48,
+   "balance": 63825.93
+  },
+  {
+   "txn_id": "T0040",
+   "date": "2026-01-25",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1795",
+   "amount": 10376.81,
+   "balance": 74202.74
+  },
+  {
+   "txn_id": "T0041",
+   "date": "2026-01-25",
+   "description": "SMITH & CO CPA",
+   "amount": -950.0,
+   "balance": 73252.74
+  },
+  {
+   "txn_id": "T0042",
+   "date": "2026-01-26",
+   "description": "STARBUCKS STORE 42484",
+   "amount": -50.08,
+   "balance": 73202.66
+  },
+  {
+   "txn_id": "T0043",
+   "date": "2026-01-27",
+   "description": "STRIPE TRANSFER ST-Y6EVF9",
+   "amount": 1983.74,
+   "balance": 75186.4
+  },
+  {
+   "txn_id": "T0044",
+   "date": "2026-01-27",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -18.53,
+   "balance": 75167.87
+  },
+  {
+   "txn_id": "T0045",
+   "date": "2026-01-28",
+   "description": "PANERA BREAD #287",
+   "amount": -64.05,
+   "balance": 75103.82
+  },
+  {
+   "txn_id": "T0046",
+   "date": "2026-01-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 71103.82
+  },
+  {
+   "txn_id": "T0047",
+   "date": "2026-01-31",
+   "description": "INTEREST PAYMENT",
+   "amount": 8.33,
+   "balance": 71112.15
+  },
+  {
+   "txn_id": "T0048",
+   "date": "2026-01-31",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8009.86,
+   "balance": 63102.29
+  },
+  {
+   "txn_id": "T0049",
+   "date": "2026-01-31",
+   "description": "GUSTO TAX HU66",
+   "amount": -2268.9,
+   "balance": 60833.39
+  },
+  {
+   "txn_id": "T0050",
+   "date": "2026-01-31",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 60808.39
+  },
+  {
+   "txn_id": "T0051",
+   "date": "2026-02-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 57608.39
+  },
+  {
+   "txn_id": "T0052",
+   "date": "2026-02-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -613.12,
+   "balance": 56995.27
+  },
+  {
+   "txn_id": "T0053",
+   "date": "2026-02-02",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -30.19,
+   "balance": 56965.08
+  },
+  {
+   "txn_id": "T0054",
+   "date": "2026-02-02",
+   "description": "STARBUCKS STORE 31153",
+   "amount": -39.7,
+   "balance": 56925.38
+  },
+  {
+   "txn_id": "T0055",
+   "date": "2026-02-03",
+   "description": "WIRE IN ORBIT FOODS REF 55484",
+   "amount": 11170.18,
+   "balance": 68095.56
+  },
+  {
+   "txn_id": "T0056",
+   "date": "2026-02-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 67915.59
+  },
+  {
+   "txn_id": "T0057",
+   "date": "2026-02-04",
+   "description": "GOOGLE *CLOUD IKLYR",
+   "amount": -74.03,
+   "balance": 67841.56
+  },
+  {
+   "txn_id": "T0058",
+   "date": "2026-02-04",
+   "description": "DELTA AIR 8068138371",
+   "amount": -492.8,
+   "balance": 67348.76
+  },
+  {
+   "txn_id": "T0059",
+   "date": "2026-02-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 66298.76
+  },
+  {
+   "txn_id": "T0060",
+   "date": "2026-02-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 66214.76
+  },
+  {
+   "txn_id": "T0061",
+   "date": "2026-02-05",
+   "description": "SWEETGREEN AUSTIN",
+   "amount": -29.29,
+   "balance": 66185.47
+  },
+  {
+   "txn_id": "T0062",
+   "date": "2026-02-05",
+   "description": "STARBUCKS STORE 43691",
+   "amount": -26.11,
+   "balance": 66159.36
+  },
+  {
+   "txn_id": "T0063",
+   "date": "2026-02-06",
+   "description": "GOOGLE *ADS5713",
+   "amount": -580.62,
+   "balance": 65578.74
+  },
+  {
+   "txn_id": "T0064",
+   "date": "2026-02-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 65534.99
+  },
+  {
+   "txn_id": "T0065",
+   "date": "2026-02-07",
+   "description": "MARRIOTT AUSTIN",
+   "amount": -568.0,
+   "balance": 64966.99
+  },
+  {
+   "txn_id": "T0066",
+   "date": "2026-02-07",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -30.18,
+   "balance": 64936.81
+  },
+  {
+   "txn_id": "T0067",
+   "date": "2026-02-07",
+   "description": "PANERA BREAD #198",
+   "amount": -16.16,
+   "balance": 64920.65
+  },
+  {
+   "txn_id": "T0068",
+   "date": "2026-02-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 64875.65
+  },
+  {
+   "txn_id": "T0069",
+   "date": "2026-02-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 64859.66
+  },
+  {
+   "txn_id": "T0070",
+   "date": "2026-02-11",
+   "description": "STARBUCKS STORE 76404",
+   "amount": -79.75,
+   "balance": 64779.91
+  },
+  {
+   "txn_id": "T0071",
+   "date": "2026-02-12",
+   "description": "STRIPE TRANSFER ST-H53KJ7",
+   "amount": 1255.37,
+   "balance": 66035.28
+  },
+  {
+   "txn_id": "T0072",
+   "date": "2026-02-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 65945.28
+  },
+  {
+   "txn_id": "T0073",
+   "date": "2026-02-14",
+   "description": "WIRE IN SUMMIT LEARNING REF 11852",
+   "amount": 13670.6,
+   "balance": 79615.88
+  },
+  {
+   "txn_id": "T0074",
+   "date": "2026-02-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 79605.89
+  },
+  {
+   "txn_id": "T0075",
+   "date": "2026-02-14",
+   "description": "AMAZON MKTPL*TLWLQ AMZN.COM/BILL WA",
+   "amount": -96.91,
+   "balance": 79508.98
+  },
+  {
+   "txn_id": "T0076",
+   "date": "2026-02-15",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1399",
+   "amount": 10655.96,
+   "balance": 90164.94
+  },
+  {
+   "txn_id": "T0077",
+   "date": "2026-02-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7808.19,
+   "balance": 82356.75
+  },
+  {
+   "txn_id": "T0078",
+   "date": "2026-02-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2229.13,
+   "balance": 80127.62
+  },
+  {
+   "txn_id": "T0079",
+   "date": "2026-02-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 80047.62
+  },
+  {
+   "txn_id": "T0080",
+   "date": "2026-02-17",
+   "description": "ACH CREDIT ACME CORP INV-1335",
+   "amount": 9779.56,
+   "balance": 89827.18
+  },
+  {
+   "txn_id": "T0081",
+   "date": "2026-02-17",
+   "description": "FACEBK *ADS 2H77RG",
+   "amount": -454.36,
+   "balance": 89372.82
+  },
+  {
+   "txn_id": "T0082",
+   "date": "2026-02-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 89182.87
+  },
+  {
+   "txn_id": "T0083",
+   "date": "2026-02-19",
+   "description": "DOORDASH*CHIPOTLE",
+   "amount": -65.85,
+   "balance": 89117.02
+  },
+  {
+   "txn_id": "T0084",
+   "date": "2026-02-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -220.39,
+   "balance": 88896.63
+  },
+  {
+   "txn_id": "T0085",
+   "date": "2026-02-21",
+   "description": "STRIPE TRANSFER ST-V3OE9Z",
+   "amount": 875.14,
+   "balance": 89771.77
+  },
+  {
+   "txn_id": "T0086",
+   "date": "2026-02-22",
+   "description": "STRIPE TRANSFER ST-LC8D2M",
+   "amount": 1864.45,
+   "balance": 91636.22
+  },
+  {
+   "txn_id": "T0087",
+   "date": "2026-02-22",
+   "description": "UBER *EATS 8005928996",
+   "amount": -56.52,
+   "balance": 91579.7
+  },
+  {
+   "txn_id": "T0088",
+   "date": "2026-02-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0219",
+   "amount": -1684.53,
+   "balance": 89895.17
+  },
+  {
+   "txn_id": "T0089",
+   "date": "2026-02-23",
+   "description": "ACH CREDIT KESTREL LOGISTICS INV-1163",
+   "amount": 11545.39,
+   "balance": 101440.56
+  },
+  {
+   "txn_id": "T0090",
+   "date": "2026-02-23",
+   "description": "DOORDASH*SHAKE SHACK",
+   "amount": -50.79,
+   "balance": 101389.77
+  },
+  {
+   "txn_id": "T0091",
+   "date": "2026-02-26",
+   "description": "ONLINE TRANSFER TO SAV XXXXXX3301",
+   "amount": -2000.0,
+   "balance": 99389.77
+  },
+  {
+   "txn_id": "T0092",
+   "date": "2026-02-28",
+   "description": "INTEREST PAYMENT",
+   "amount": 7.39,
+   "balance": 99397.16
+  },
+  {
+   "txn_id": "T0093",
+   "date": "2026-02-28",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7887.49,
+   "balance": 91509.67
+  },
+  {
+   "txn_id": "T0094",
+   "date": "2026-02-28",
+   "description": "GUSTO TAX HU66",
+   "amount": -2276.53,
+   "balance": 89233.14
+  },
+  {
+   "txn_id": "T0095",
+   "date": "2026-02-28",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 89208.14
+  },
+  {
+   "txn_id": "T0096",
+   "date": "2026-02-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 85208.14
+  },
+  {
+   "txn_id": "T0097",
+   "date": "2026-03-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 82008.14
+  },
+  {
+   "txn_id": "T0098",
+   "date": "2026-03-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -434.44,
+   "balance": 81573.7
+  },
+  {
+   "txn_id": "T0099",
+   "date": "2026-03-03",
+   "description": "STRIPE TRANSFER ST-1BSVSH",
+   "amount": 1453.27,
+   "balance": 83026.97
+  },
+  {
+   "txn_id": "T0100",
+   "date": "2026-03-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 82847.0
+  },
+  {
+   "txn_id": "T0101",
+   "date": "2026-03-04",
+   "description": "GOOGLE *CLOUD P0OIL",
+   "amount": -83.43,
+   "balance": 82763.57
+  },
+  {
+   "txn_id": "T0102",
+   "date": "2026-03-05",
+   "description": "STRIPE TRANSFER ST-KHHCI7",
+   "amount": 1578.89,
+   "balance": 84342.46
+  },
+  {
+   "txn_id": "T0103",
+   "date": "2026-03-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 83292.46
+  },
+  {
+   "txn_id": "T0104",
+   "date": "2026-03-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 83208.46
+  },
+  {
+   "txn_id": "T0105",
+   "date": "2026-03-06",
+   "description": "GOOGLE *ADS4978",
+   "amount": -582.33,
+   "balance": 82626.13
+  },
+  {
+   "txn_id": "T0106",
+   "date": "2026-03-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 82582.38
+  },
+  {
+   "txn_id": "T0107",
+   "date": "2026-03-07",
+   "description": "UBER *EATS 8005928996",
+   "amount": -56.36,
+   "balance": 82526.02
+  },
+  {
+   "txn_id": "T0108",
+   "date": "2026-03-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 82481.02
+  },
+  {
+   "txn_id": "T0109",
+   "date": "2026-03-10",
+   "description": "AMAZON MKTPL*840QU AMZN.COM/BILL WA",
+   "amount": -46.49,
+   "balance": 82434.53
+  },
+  {
+   "txn_id": "T0110",
+   "date": "2026-03-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 82418.54
+  },
+  {
+   "txn_id": "T0111",
+   "date": "2026-03-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 82328.54
+  },
+  {
+   "txn_id": "T0112",
+   "date": "2026-03-12",
+   "description": "DOORDASH*SHAKE SHACK",
+   "amount": -74.31,
+   "balance": 82254.23
+  },
+  {
+   "txn_id": "T0113",
+   "date": "2026-03-14",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1323",
+   "amount": 9254.5,
+   "balance": 91508.73
+  },
+  {
+   "txn_id": "T0114",
+   "date": "2026-03-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 91498.74
+  },
+  {
+   "txn_id": "T0115",
+   "date": "2026-03-14",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -46.53,
+   "balance": 91452.21
+  },
+  {
+   "txn_id": "T0116",
+   "date": "2026-03-15",
+   "description": "STRIPE TRANSFER ST-UB8VM9",
+   "amount": 923.52,
+   "balance": 92375.73
+  },
+  {
+   "txn_id": "T0117",
+   "date": "2026-03-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8062.32,
+   "balance": 84313.41
+  },
+  {
+   "txn_id": "T0118",
+   "date": "2026-03-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2105.76,
+   "balance": 82207.65
+  },
+  {
+   "txn_id": "T0119",
+   "date": "2026-03-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 82127.65
+  },
+  {
+   "txn_id": "T0120",
+   "date": "2026-03-17",
+   "description": "DEPOSIT FROM M PATEL PERSONAL CHK",
+   "amount": 10000.0,
+   "balance": 92127.65
+  },
+  {
+   "txn_id": "T0121",
+   "date": "2026-03-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 91937.7
+  },
+  {
+   "txn_id": "T0122",
+   "date": "2026-03-18",
+   "description": "STAPLES 006201",
+   "amount": -44.5,
+   "balance": 91893.2
+  },
+  {
+   "txn_id": "T0123",
+   "date": "2026-03-19",
+   "description": "PANERA BREAD #570",
+   "amount": -70.48,
+   "balance": 91822.72
+  },
+  {
+   "txn_id": "T0124",
+   "date": "2026-03-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -262.47,
+   "balance": 91560.25
+  },
+  {
+   "txn_id": "T0125",
+   "date": "2026-03-21",
+   "description": "WIRE IN KESTREL LOGISTICS REF 92015",
+   "amount": 11237.74,
+   "balance": 102797.99
+  },
+  {
+   "txn_id": "T0126",
+   "date": "2026-03-22",
+   "description": "AMAZON MKTPL*FL9C6 AMZN.COM/BILL WA",
+   "amount": -152.08,
+   "balance": 102645.91
+  },
+  {
+   "txn_id": "T0127",
+   "date": "2026-03-22",
+   "description": "STARBUCKS STORE 78580",
+   "amount": -21.29,
+   "balance": 102624.62
+  },
+  {
+   "txn_id": "T0128",
+   "date": "2026-03-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0319",
+   "amount": -2059.19,
+   "balance": 100565.43
+  },
+  {
+   "txn_id": "T0129",
+   "date": "2026-03-23",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1899",
+   "amount": 5836.08,
+   "balance": 106401.51
+  },
+  {
+   "txn_id": "T0130",
+   "date": "2026-03-23",
+   "description": "WIRE IN KESTREL LOGISTICS REF 42974",
+   "amount": 9112.38,
+   "balance": 115513.89
+  },
+  {
+   "txn_id": "T0131",
+   "date": "2026-03-23",
+   "description": "AMAZON MKTPL*9ZQJO AMZN.COM/BILL WA",
+   "amount": -28.62,
+   "balance": 115485.27
+  },
+  {
+   "txn_id": "T0132",
+   "date": "2026-03-23",
+   "description": "LINKEDIN *JOBS",
+   "amount": -295.0,
+   "balance": 115190.27
+  },
+  {
+   "txn_id": "T0133",
+   "date": "2026-03-25",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -55.68,
+   "balance": 115134.59
+  },
+  {
+   "txn_id": "T0134",
+   "date": "2026-03-25",
+   "description": "WIRE TRANSFER FEE",
+   "amount": -30.0,
+   "balance": 115104.59
+  },
+  {
+   "txn_id": "T0135",
+   "date": "2026-03-28",
+   "description": "DOORDASH*PANERA",
+   "amount": -81.57,
+   "balance": 115023.02
+  },
+  {
+   "txn_id": "T0136",
+   "date": "2026-03-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 111023.02
+  },
+  {
+   "txn_id": "T0137",
+   "date": "2026-03-31",
+   "description": "INTEREST PAYMENT",
+   "amount": 7.24,
+   "balance": 111030.26
+  },
+  {
+   "txn_id": "T0138",
+   "date": "2026-03-31",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8031.25,
+   "balance": 102999.01
+  },
+  {
+   "txn_id": "T0139",
+   "date": "2026-03-31",
+   "description": "GUSTO TAX HU66",
+   "amount": -2171.19,
+   "balance": 100827.82
+  },
+  {
+   "txn_id": "T0140",
+   "date": "2026-03-31",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 100802.82
+  },
+  {
+   "txn_id": "T0141",
+   "date": "2026-04-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 97602.82
+  },
+  {
+   "txn_id": "T0142",
+   "date": "2026-04-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -468.0,
+   "balance": 97134.82
+  },
+  {
+   "txn_id": "T0143",
+   "date": "2026-04-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 96954.85
+  },
+  {
+   "txn_id": "T0144",
+   "date": "2026-04-04",
+   "description": "STRIPE TRANSFER ST-JYV9QT",
+   "amount": 891.49,
+   "balance": 97846.34
+  },
+  {
+   "txn_id": "T0145",
+   "date": "2026-04-04",
+   "description": "GOOGLE *CLOUD 1W8K7",
+   "amount": -42.36,
+   "balance": 97803.98
+  },
+  {
+   "txn_id": "T0146",
+   "date": "2026-04-04",
+   "description": "DELTA AIR 8767100634",
+   "amount": -622.29,
+   "balance": 97181.69
+  },
+  {
+   "txn_id": "T0147",
+   "date": "2026-04-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 96131.69
+  },
+  {
+   "txn_id": "T0148",
+   "date": "2026-04-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 96047.69
+  },
+  {
+   "txn_id": "T0149",
+   "date": "2026-04-05",
+   "description": "AMAZON MKTPL REFUND*U5GEY",
+   "amount": 26.82,
+   "balance": 96074.51
+  },
+  {
+   "txn_id": "T0150",
+   "date": "2026-04-05",
+   "description": "SWEETGREEN BOSTON",
+   "amount": -25.92,
+   "balance": 96048.59
+  },
+  {
+   "txn_id": "T0151",
+   "date": "2026-04-06",
+   "description": "GOOGLE *ADS5939",
+   "amount": -688.53,
+   "balance": 95360.06
+  },
+  {
+   "txn_id": "T0152",
+   "date": "2026-04-06",
+   "description": "DOORDASH*PANERA",
+   "amount": -51.22,
+   "balance": 95308.84
+  },
+  {
+   "txn_id": "T0153",
+   "date": "2026-04-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 95265.09
+  },
+  {
+   "txn_id": "T0154",
+   "date": "2026-04-07",
+   "description": "AMAZON MKTPL*BH6AX AMZN.COM/BILL WA",
+   "amount": -34.86,
+   "balance": 95230.23
+  },
+  {
+   "txn_id": "T0155",
+   "date": "2026-04-07",
+   "description": "MARRIOTT BOSTON",
+   "amount": -443.67,
+   "balance": 94786.56
+  },
+  {
+   "txn_id": "T0156",
+   "date": "2026-04-08",
+   "description": "PANERA BREAD #519",
+   "amount": -19.89,
+   "balance": 94766.67
+  },
+  {
+   "txn_id": "T0157",
+   "date": "2026-04-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 94721.67
+  },
+  {
+   "txn_id": "T0158",
+   "date": "2026-04-10",
+   "description": "PANERA BREAD #372",
+   "amount": -19.19,
+   "balance": 94702.48
+  },
+  {
+   "txn_id": "T0159",
+   "date": "2026-04-10",
+   "description": "THE HARTFORD INS PREM",
+   "amount": -1140.0,
+   "balance": 93562.48
+  },
+  {
+   "txn_id": "T0160",
+   "date": "2026-04-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 93546.49
+  },
+  {
+   "txn_id": "T0161",
+   "date": "2026-04-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 93456.49
+  },
+  {
+   "txn_id": "T0162",
+   "date": "2026-04-12",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -33.9,
+   "balance": 93422.59
+  },
+  {
+   "txn_id": "T0163",
+   "date": "2026-04-14",
+   "description": "WIRE IN ACME CORP REF 80645",
+   "amount": 13705.15,
+   "balance": 107127.74
+  },
+  {
+   "txn_id": "T0164",
+   "date": "2026-04-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 107117.75
+  },
+  {
+   "txn_id": "T0165",
+   "date": "2026-04-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7875.48,
+   "balance": 99242.27
+  },
+  {
+   "txn_id": "T0166",
+   "date": "2026-04-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2249.4,
+   "balance": 96992.87
+  },
+  {
+   "txn_id": "T0167",
+   "date": "2026-04-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 96912.87
+  },
+  {
+   "txn_id": "T0168",
+   "date": "2026-04-15",
+   "description": "UBER *EATS 8005928996",
+   "amount": -28.61,
+   "balance": 96884.26
+  },
+  {
+   "txn_id": "T0169",
+   "date": "2026-04-15",
+   "description": "UPWORK -REF453199",
+   "amount": -476.0,
+   "balance": 96408.26
+  },
+  {
+   "txn_id": "T0170",
+   "date": "2026-04-15",
+   "description": "IRS USATAXPYMT 833756618284",
+   "amount": -3500.0,
+   "balance": 92908.26
+  },
+  {
+   "txn_id": "T0171",
+   "date": "2026-04-17",
+   "description": "FACEBK *ADS H97PW3",
+   "amount": -475.31,
+   "balance": 92432.95
+  },
+  {
+   "txn_id": "T0172",
+   "date": "2026-04-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 92243.0
+  },
+  {
+   "txn_id": "T0173",
+   "date": "2026-04-19",
+   "description": "STAPLES 003526",
+   "amount": -87.96,
+   "balance": 92155.04
+  },
+  {
+   "txn_id": "T0174",
+   "date": "2026-04-19",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -29.26,
+   "balance": 92125.78
+  },
+  {
+   "txn_id": "T0175",
+   "date": "2026-04-20",
+   "description": "STRIPE TRANSFER ST-MKSS8S",
+   "amount": 1585.89,
+   "balance": 93711.67
+  },
+  {
+   "txn_id": "T0176",
+   "date": "2026-04-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -203.49,
+   "balance": 93508.18
+  },
+  {
+   "txn_id": "T0177",
+   "date": "2026-04-22",
+   "description": "PANERA BREAD #400",
+   "amount": -38.9,
+   "balance": 93469.28
+  },
+  {
+   "txn_id": "T0178",
+   "date": "2026-04-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0410",
+   "amount": -2324.6,
+   "balance": 91144.68
+  },
+  {
+   "txn_id": "T0179",
+   "date": "2026-04-23",
+   "description": "WIRE IN SUMMIT LEARNING REF 30715",
+   "amount": 13721.29,
+   "balance": 104865.97
+  },
+  {
+   "txn_id": "T0180",
+   "date": "2026-04-24",
+   "description": "ACH CREDIT ACME CORP INV-1596",
+   "amount": 7146.97,
+   "balance": 112012.94
+  },
+  {
+   "txn_id": "T0181",
+   "date": "2026-04-25",
+   "description": "SMITH & CO CPA",
+   "amount": -950.0,
+   "balance": 111062.94
+  },
+  {
+   "txn_id": "T0182",
+   "date": "2026-04-27",
+   "description": "UBER *EATS 8005928996",
+   "amount": -43.65,
+   "balance": 111019.29
+  },
+  {
+   "txn_id": "T0183",
+   "date": "2026-04-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 107019.29
+  },
+  {
+   "txn_id": "T0184",
+   "date": "2026-04-30",
+   "description": "INTEREST PAYMENT",
+   "amount": 8.86,
+   "balance": 107028.15
+  },
+  {
+   "txn_id": "T0185",
+   "date": "2026-04-30",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7803.78,
+   "balance": 99224.37
+  },
+  {
+   "txn_id": "T0186",
+   "date": "2026-04-30",
+   "description": "GUSTO TAX HU66",
+   "amount": -2221.19,
+   "balance": 97003.18
+  },
+  {
+   "txn_id": "T0187",
+   "date": "2026-04-30",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 96978.18
+  },
+  {
+   "txn_id": "T0188",
+   "date": "2026-05-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 93778.18
+  },
+  {
+   "txn_id": "T0189",
+   "date": "2026-05-02",
+   "description": "ACH CREDIT ORBIT FOODS INV-1273",
+   "amount": 8912.45,
+   "balance": 102690.63
+  },
+  {
+   "txn_id": "T0190",
+   "date": "2026-05-02",
+   "description": "STRIPE TRANSFER ST-N36RXF",
+   "amount": 2022.68,
+   "balance": 104713.31
+  },
+  {
+   "txn_id": "T0191",
+   "date": "2026-05-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -380.97,
+   "balance": 104332.34
+  },
+  {
+   "txn_id": "T0192",
+   "date": "2026-05-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 104152.37
+  },
+  {
+   "txn_id": "T0193",
+   "date": "2026-05-04",
+   "description": "GOOGLE *CLOUD 4VVWU",
+   "amount": -88.53,
+   "balance": 104063.84
+  },
+  {
+   "txn_id": "T0194",
+   "date": "2026-05-04",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -59.49,
+   "balance": 104004.35
+  },
+  {
+   "txn_id": "T0195",
+   "date": "2026-05-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 102954.35
+  },
+  {
+   "txn_id": "T0196",
+   "date": "2026-05-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 102870.35
+  },
+  {
+   "txn_id": "T0197",
+   "date": "2026-05-06",
+   "description": "GOOGLE *ADS5892",
+   "amount": -888.62,
+   "balance": 101981.73
+  },
+  {
+   "txn_id": "T0198",
+   "date": "2026-05-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 101937.98
+  },
+  {
+   "txn_id": "T0199",
+   "date": "2026-05-08",
+   "description": "STRIPE TRANSFER ST-8AGJVO",
+   "amount": 2874.8,
+   "balance": 104812.78
+  },
+  {
+   "txn_id": "T0200",
+   "date": "2026-05-08",
+   "description": "STRIPE TRANSFER ST-KTF079",
+   "amount": 1093.16,
+   "balance": 105905.94
+  },
+  {
+   "txn_id": "T0201",
+   "date": "2026-05-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 105860.94
+  },
+  {
+   "txn_id": "T0202",
+   "date": "2026-05-09",
+   "description": "PANERA BREAD #129",
+   "amount": -24.14,
+   "balance": 105836.8
+  },
+  {
+   "txn_id": "T0203",
+   "date": "2026-05-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 105820.81
+  },
+  {
+   "txn_id": "T0204",
+   "date": "2026-05-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 105730.81
+  },
+  {
+   "txn_id": "T0205",
+   "date": "2026-05-12",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -30.56,
+   "balance": 105700.25
+  },
+  {
+   "txn_id": "T0206",
+   "date": "2026-05-13",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1663",
+   "amount": 7313.12,
+   "balance": 113013.37
+  },
+  {
+   "txn_id": "T0207",
+   "date": "2026-05-13",
+   "description": "AMAZON MKTPL*Q3MXR AMZN.COM/BILL WA",
+   "amount": -104.41,
+   "balance": 112908.96
+  },
+  {
+   "txn_id": "T0208",
+   "date": "2026-05-13",
+   "description": "DOORDASH*CHIPOTLE",
+   "amount": -84.78,
+   "balance": 112824.18
+  },
+  {
+   "txn_id": "T0209",
+   "date": "2026-05-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 112814.19
+  },
+  {
+   "txn_id": "T0210",
+   "date": "2026-05-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8175.61,
+   "balance": 104638.58
+  },
+  {
+   "txn_id": "T0211",
+   "date": "2026-05-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2108.9,
+   "balance": 102529.68
+  },
+  {
+   "txn_id": "T0212",
+   "date": "2026-05-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 102449.68
+  },
+  {
+   "txn_id": "T0213",
+   "date": "2026-05-17",
+   "description": "WIRE IN ORBIT FOODS REF 54400",
+   "amount": 6094.03,
+   "balance": 108543.71
+  },
+  {
+   "txn_id": "T0214",
+   "date": "2026-05-17",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -28.63,
+   "balance": 108515.08
+  },
+  {
+   "txn_id": "T0215",
+   "date": "2026-05-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 108325.13
+  },
+  {
+   "txn_id": "T0216",
+   "date": "2026-05-19",
+   "description": "APPLE STORE #R102",
+   "amount": -2899.0,
+   "balance": 105426.13
+  },
+  {
+   "txn_id": "T0217",
+   "date": "2026-05-20",
+   "description": "ACH CREDIT KESTREL LOGISTICS INV-1659",
+   "amount": 9281.98,
+   "balance": 114708.11
+  },
+  {
+   "txn_id": "T0218",
+   "date": "2026-05-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -193.41,
+   "balance": 114514.7
+  },
+  {
+   "txn_id": "T0219",
+   "date": "2026-05-20",
+   "description": "AMAZON MKTPL REFUND*D0E68",
+   "amount": 49.46,
+   "balance": 114564.16
+  },
+  {
+   "txn_id": "T0220",
+   "date": "2026-05-21",
+   "description": "WIRE TRANSFER FEE",
+   "amount": -30.0,
+   "balance": 114534.16
+  },
+  {
+   "txn_id": "T0221",
+   "date": "2026-05-22",
+   "description": "PANERA BREAD #633",
+   "amount": -16.19,
+   "balance": 114517.97
+  },
+  {
+   "txn_id": "T0222",
+   "date": "2026-05-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0522",
+   "amount": -2299.05,
+   "balance": 112218.92
+  },
+  {
+   "txn_id": "T0223",
+   "date": "2026-05-23",
+   "description": "ACH CREDIT BLUEWAVE HEALTH INV-1872",
+   "amount": 11593.98,
+   "balance": 123812.9
+  },
+  {
+   "txn_id": "T0224",
+   "date": "2026-05-26",
+   "description": "ONLINE TRANSFER TO SAV XXXXXX3301",
+   "amount": -2000.0,
+   "balance": 121812.9
+  },
+  {
+   "txn_id": "T0225",
+   "date": "2026-05-27",
+   "description": "UBER *EATS 8005928996",
+   "amount": -74.32,
+   "balance": 121738.58
+  },
+  {
+   "txn_id": "T0226",
+   "date": "2026-05-28",
+   "description": "AMAZON MKTPL*QC5IB AMZN.COM/BILL WA",
+   "amount": -99.51,
+   "balance": 121639.07
+  },
+  {
+   "txn_id": "T0227",
+   "date": "2026-05-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 117639.07
+  },
+  {
+   "txn_id": "T0228",
+   "date": "2026-05-31",
+   "description": "INTEREST PAYMENT",
+   "amount": 4.14,
+   "balance": 117643.21
+  },
+  {
+   "txn_id": "T0229",
+   "date": "2026-05-31",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8020.09,
+   "balance": 109623.12
+  },
+  {
+   "txn_id": "T0230",
+   "date": "2026-05-31",
+   "description": "GUSTO TAX HU66",
+   "amount": -2202.69,
+   "balance": 107420.43
+  },
+  {
+   "txn_id": "T0231",
+   "date": "2026-05-31",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 107395.43
+  },
+  {
+   "txn_id": "T0232",
+   "date": "2026-06-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 104195.43
+  },
+  {
+   "txn_id": "T0233",
+   "date": "2026-06-02",
+   "description": "STRIPE TRANSFER ST-DGWQVB",
+   "amount": 1160.38,
+   "balance": 105355.81
+  },
+  {
+   "txn_id": "T0234",
+   "date": "2026-06-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -448.11,
+   "balance": 104907.7
+  },
+  {
+   "txn_id": "T0235",
+   "date": "2026-06-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 104727.73
+  },
+  {
+   "txn_id": "T0236",
+   "date": "2026-06-04",
+   "description": "STRIPE TRANSFER ST-30JUJ6",
+   "amount": 888.6,
+   "balance": 105616.33
+  },
+  {
+   "txn_id": "T0237",
+   "date": "2026-06-04",
+   "description": "GOOGLE *CLOUD XNT29",
+   "amount": -88.53,
+   "balance": 105527.8
+  },
+  {
+   "txn_id": "T0238",
+   "date": "2026-06-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 104477.8
+  },
+  {
+   "txn_id": "T0239",
+   "date": "2026-06-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 104393.8
+  },
+  {
+   "txn_id": "T0240",
+   "date": "2026-06-05",
+   "description": "LEGALZOOM*ORDER 888-773-0888",
+   "amount": -249.0,
+   "balance": 104144.8
+  },
+  {
+   "txn_id": "T0241",
+   "date": "2026-06-06",
+   "description": "ACH CREDIT BLUEWAVE HEALTH INV-1816",
+   "amount": 10711.22,
+   "balance": 114856.02
+  },
+  {
+   "txn_id": "T0242",
+   "date": "2026-06-06",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1468",
+   "amount": 6178.06,
+   "balance": 121034.08
+  },
+  {
+   "txn_id": "T0243",
+   "date": "2026-06-06",
+   "description": "GOOGLE *ADS8010",
+   "amount": -318.3,
+   "balance": 120715.78
+  },
+  {
+   "txn_id": "T0244",
+   "date": "2026-06-07",
+   "description": "WIRE IN KESTREL LOGISTICS REF 28243",
+   "amount": 8140.47,
+   "balance": 128856.25
+  },
+  {
+   "txn_id": "T0245",
+   "date": "2026-06-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 128812.5
+  },
+  {
+   "txn_id": "T0246",
+   "date": "2026-06-08",
+   "description": "STRIPE TRANSFER ST-F11MKP",
+   "amount": 1294.24,
+   "balance": 130106.74
+  },
+  {
+   "txn_id": "T0247",
+   "date": "2026-06-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 130061.74
+  },
+  {
+   "txn_id": "T0248",
+   "date": "2026-06-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 130045.75
+  },
+  {
+   "txn_id": "T0249",
+   "date": "2026-06-11",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -48.0,
+   "balance": 129997.75
+  },
+  {
+   "txn_id": "T0250",
+   "date": "2026-06-11",
+   "description": "DOORDASH*SHAKE SHACK",
+   "amount": -10.87,
+   "balance": 129986.88
+  },
+  {
+   "txn_id": "T0251",
+   "date": "2026-06-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 129896.88
+  },
+  {
+   "txn_id": "T0252",
+   "date": "2026-06-13",
+   "description": "PANERA BREAD #572",
+   "amount": -50.05,
+   "balance": 129846.83
+  },
+  {
+   "txn_id": "T0253",
+   "date": "2026-06-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 129836.84
+  },
+  {
+   "txn_id": "T0254",
+   "date": "2026-06-14",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -14.44,
+   "balance": 129822.4
+  },
+  {
+   "txn_id": "T0255",
+   "date": "2026-06-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7885.09,
+   "balance": 121937.31
+  },
+  {
+   "txn_id": "T0256",
+   "date": "2026-06-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2131.7,
+   "balance": 119805.61
+  },
+  {
+   "txn_id": "T0257",
+   "date": "2026-06-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 119725.61
+  },
+  {
+   "txn_id": "T0258",
+   "date": "2026-06-15",
+   "description": "STAPLES 004101",
+   "amount": -111.96,
+   "balance": 119613.65
+  },
+  {
+   "txn_id": "T0259",
+   "date": "2026-06-17",
+   "description": "STRIPE TRANSFER ST-8BTO6X",
+   "amount": 2753.66,
+   "balance": 122367.31
+  },
+  {
+   "txn_id": "T0260",
+   "date": "2026-06-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 122177.36
+  },
+  {
+   "txn_id": "T0261",
+   "date": "2026-06-18",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -35.17,
+   "balance": 122142.19
+  },
+  {
+   "txn_id": "T0262",
+   "date": "2026-06-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -165.6,
+   "balance": 121976.59
+  },
+  {
+   "txn_id": "T0263",
+   "date": "2026-06-21",
+   "description": "PANERA BREAD #566",
+   "amount": -56.74,
+   "balance": 121919.85
+  },
+  {
+   "txn_id": "T0264",
+   "date": "2026-06-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0628",
+   "amount": -1562.81,
+   "balance": 120357.04
+  },
+  {
+   "txn_id": "T0265",
+   "date": "2026-06-23",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1886",
+   "amount": 5241.67,
+   "balance": 125598.71
+  },
+  {
+   "txn_id": "T0266",
+   "date": "2026-06-23",
+   "description": "WIRE IN ACME CORP REF 30171",
+   "amount": 9311.34,
+   "balance": 134910.05
+  },
+  {
+   "txn_id": "T0267",
+   "date": "2026-06-25",
+   "description": "AMAZON MKTPL*MHFWK AMZN.COM/BILL WA",
+   "amount": -42.85,
+   "balance": 134867.2
+  },
+  {
+   "txn_id": "T0268",
+   "date": "2026-06-26",
+   "description": "DOORDASH*SHAKE SHACK",
+   "amount": -27.62,
+   "balance": 134839.58
+  },
+  {
+   "txn_id": "T0269",
+   "date": "2026-06-27",
+   "description": "STARBUCKS STORE 56423",
+   "amount": -19.09,
+   "balance": 134820.49
+  },
+  {
+   "txn_id": "T0270",
+   "date": "2026-06-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 130820.49
+  },
+  {
+   "txn_id": "T0271",
+   "date": "2026-06-30",
+   "description": "INTEREST PAYMENT",
+   "amount": 8.84,
+   "balance": 130829.33
+  },
+  {
+   "txn_id": "T0272",
+   "date": "2026-06-30",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8196.75,
+   "balance": 122632.58
+  },
+  {
+   "txn_id": "T0273",
+   "date": "2026-06-30",
+   "description": "GUSTO TAX HU66",
+   "amount": -2184.39,
+   "balance": 120448.19
+  },
+  {
+   "txn_id": "T0274",
+   "date": "2026-06-30",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 120423.19
+  },
+  {
+   "txn_id": "T0275",
+   "date": "2026-07-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 117223.19
+  },
+  {
+   "txn_id": "T0276",
+   "date": "2026-07-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -403.14,
+   "balance": 116820.05
+  },
+  {
+   "txn_id": "T0277",
+   "date": "2026-07-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 116640.08
+  },
+  {
+   "txn_id": "T0278",
+   "date": "2026-07-04",
+   "description": "GOOGLE *CLOUD 7UR1B",
+   "amount": -68.28,
+   "balance": 116571.8
+  },
+  {
+   "txn_id": "T0279",
+   "date": "2026-07-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 115521.8
+  },
+  {
+   "txn_id": "T0280",
+   "date": "2026-07-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 115437.8
+  },
+  {
+   "txn_id": "T0281",
+   "date": "2026-07-05",
+   "description": "STAPLES 002731",
+   "amount": -104.42,
+   "balance": 115333.38
+  },
+  {
+   "txn_id": "T0282",
+   "date": "2026-07-06",
+   "description": "WIRE IN BLUEWAVE HEALTH REF 13484",
+   "amount": 6841.23,
+   "balance": 122174.61
+  },
+  {
+   "txn_id": "T0283",
+   "date": "2026-07-06",
+   "description": "GOOGLE *ADS1094",
+   "amount": -446.59,
+   "balance": 121728.02
+  },
+  {
+   "txn_id": "T0284",
+   "date": "2026-07-07",
+   "description": "STRIPE TRANSFER ST-2MH4Y4",
+   "amount": 1965.81,
+   "balance": 123693.83
+  },
+  {
+   "txn_id": "T0285",
+   "date": "2026-07-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 123650.08
+  },
+  {
+   "txn_id": "T0286",
+   "date": "2026-07-07",
+   "description": "STARBUCKS STORE 73105",
+   "amount": -58.19,
+   "balance": 123591.89
+  },
+  {
+   "txn_id": "T0287",
+   "date": "2026-07-08",
+   "description": "STARBUCKS STORE 71207",
+   "amount": -58.08,
+   "balance": 123533.81
+  },
+  {
+   "txn_id": "T0288",
+   "date": "2026-07-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 123488.81
+  },
+  {
+   "txn_id": "T0289",
+   "date": "2026-07-10",
+   "description": "ACH CREDIT ACME CORP INV-1018",
+   "amount": 11803.08,
+   "balance": 135291.89
+  },
+  {
+   "txn_id": "T0290",
+   "date": "2026-07-10",
+   "description": "THE HARTFORD INS PREM",
+   "amount": -1140.0,
+   "balance": 134151.89
+  },
+  {
+   "txn_id": "T0291",
+   "date": "2026-07-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 134135.9
+  },
+  {
+   "txn_id": "T0292",
+   "date": "2026-07-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 134045.9
+  },
+  {
+   "txn_id": "T0293",
+   "date": "2026-07-13",
+   "description": "STARBUCKS STORE 68641",
+   "amount": -81.91,
+   "balance": 133963.99
+  },
+  {
+   "txn_id": "T0294",
+   "date": "2026-07-14",
+   "description": "STRIPE TRANSFER ST-P6U0C5",
+   "amount": 1348.29,
+   "balance": 135312.28
+  },
+  {
+   "txn_id": "T0295",
+   "date": "2026-07-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 135302.29
+  },
+  {
+   "txn_id": "T0296",
+   "date": "2026-07-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7887.43,
+   "balance": 127414.86
+  },
+  {
+   "txn_id": "T0297",
+   "date": "2026-07-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2246.05,
+   "balance": 125168.81
+  },
+  {
+   "txn_id": "T0298",
+   "date": "2026-07-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 125088.81
+  },
+  {
+   "txn_id": "T0299",
+   "date": "2026-07-15",
+   "description": "IRS USATAXPYMT 872602818798",
+   "amount": -3500.0,
+   "balance": 121588.81
+  },
+  {
+   "txn_id": "T0300",
+   "date": "2026-07-18",
+   "description": "WIRE IN ACME CORP REF 25686",
+   "amount": 11859.51,
+   "balance": 133448.32
+  },
+  {
+   "txn_id": "T0301",
+   "date": "2026-07-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 133258.37
+  },
+  {
+   "txn_id": "T0302",
+   "date": "2026-07-18",
+   "description": "AMAZON MKTPL*HXNE9 AMZN.COM/BILL WA",
+   "amount": -51.36,
+   "balance": 133207.01
+  },
+  {
+   "txn_id": "T0303",
+   "date": "2026-07-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -297.82,
+   "balance": 132909.19
+  },
+  {
+   "txn_id": "T0304",
+   "date": "2026-07-21",
+   "description": "WIRE IN SUMMIT LEARNING REF 72735",
+   "amount": 10326.26,
+   "balance": 143235.45
+  },
+  {
+   "txn_id": "T0305",
+   "date": "2026-07-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0718",
+   "amount": -1806.9,
+   "balance": 141428.55
+  },
+  {
+   "txn_id": "T0306",
+   "date": "2026-07-22",
+   "description": "UPWORK -REF145722",
+   "amount": -777.11,
+   "balance": 140651.44
+  },
+  {
+   "txn_id": "T0307",
+   "date": "2026-07-24",
+   "description": "STRIPE TRANSFER ST-JT4PU3",
+   "amount": 2319.0,
+   "balance": 142970.44
+  },
+  {
+   "txn_id": "T0308",
+   "date": "2026-07-24",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -52.74,
+   "balance": 142917.7
+  },
+  {
+   "txn_id": "T0309",
+   "date": "2026-07-25",
+   "description": "SMITH & CO CPA",
+   "amount": -950.0,
+   "balance": 141967.7
+  },
+  {
+   "txn_id": "T0310",
+   "date": "2026-07-26",
+   "description": "FACEBK *ADS K7RXFQ",
+   "amount": -250.29,
+   "balance": 141717.41
+  },
+  {
+   "txn_id": "T0311",
+   "date": "2026-07-27",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -46.78,
+   "balance": 141670.63
+  },
+  {
+   "txn_id": "T0312",
+   "date": "2026-07-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 137670.63
+  },
+  {
+   "txn_id": "T0313",
+   "date": "2026-07-31",
+   "description": "INTEREST PAYMENT",
+   "amount": 6.49,
+   "balance": 137677.12
+  },
+  {
+   "txn_id": "T0314",
+   "date": "2026-07-31",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8011.81,
+   "balance": 129665.31
+  },
+  {
+   "txn_id": "T0315",
+   "date": "2026-07-31",
+   "description": "GUSTO TAX HU66",
+   "amount": -2256.92,
+   "balance": 127408.39
+  },
+  {
+   "txn_id": "T0316",
+   "date": "2026-07-31",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 127383.39
+  },
+  {
+   "txn_id": "T0317",
+   "date": "2026-08-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 124183.39
+  },
+  {
+   "txn_id": "T0318",
+   "date": "2026-08-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -307.35,
+   "balance": 123876.04
+  },
+  {
+   "txn_id": "T0319",
+   "date": "2026-08-03",
+   "description": "ACH CREDIT BLUEWAVE HEALTH INV-1554",
+   "amount": 7464.09,
+   "balance": 131340.13
+  },
+  {
+   "txn_id": "T0320",
+   "date": "2026-08-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 131160.16
+  },
+  {
+   "txn_id": "T0321",
+   "date": "2026-08-04",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1248",
+   "amount": 5220.11,
+   "balance": 136380.27
+  },
+  {
+   "txn_id": "T0322",
+   "date": "2026-08-04",
+   "description": "ACH CREDIT ORBIT FOODS INV-1451",
+   "amount": 9724.08,
+   "balance": 146104.35
+  },
+  {
+   "txn_id": "T0323",
+   "date": "2026-08-04",
+   "description": "GOOGLE *CLOUD QPHYP",
+   "amount": -115.47,
+   "balance": 145988.88
+  },
+  {
+   "txn_id": "T0324",
+   "date": "2026-08-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 144938.88
+  },
+  {
+   "txn_id": "T0325",
+   "date": "2026-08-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 144854.88
+  },
+  {
+   "txn_id": "T0326",
+   "date": "2026-08-06",
+   "description": "GOOGLE *ADS1082",
+   "amount": -566.45,
+   "balance": 144288.43
+  },
+  {
+   "txn_id": "T0327",
+   "date": "2026-08-07",
+   "description": "ACH CREDIT BLUEWAVE HEALTH INV-1572",
+   "amount": 6395.54,
+   "balance": 150683.97
+  },
+  {
+   "txn_id": "T0328",
+   "date": "2026-08-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 150640.22
+  },
+  {
+   "txn_id": "T0329",
+   "date": "2026-08-07",
+   "description": "AMAZON MKTPL*64HEI AMZN.COM/BILL WA",
+   "amount": -25.62,
+   "balance": 150614.6
+  },
+  {
+   "txn_id": "T0330",
+   "date": "2026-08-08",
+   "description": "STARBUCKS STORE 23324",
+   "amount": -24.43,
+   "balance": 150590.17
+  },
+  {
+   "txn_id": "T0331",
+   "date": "2026-08-08",
+   "description": "PANERA BREAD #760",
+   "amount": -55.46,
+   "balance": 150534.71
+  },
+  {
+   "txn_id": "T0332",
+   "date": "2026-08-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 150489.71
+  },
+  {
+   "txn_id": "T0333",
+   "date": "2026-08-09",
+   "description": "FACEBK *ADS U2EYR2",
+   "amount": -430.8,
+   "balance": 150058.91
+  },
+  {
+   "txn_id": "T0334",
+   "date": "2026-08-09",
+   "description": "PANERA BREAD #878",
+   "amount": -74.81,
+   "balance": 149984.1
+  },
+  {
+   "txn_id": "T0335",
+   "date": "2026-08-09",
+   "description": "STARBUCKS STORE 97122",
+   "amount": -37.66,
+   "balance": 149946.44
+  },
+  {
+   "txn_id": "T0336",
+   "date": "2026-08-10",
+   "description": "AMAZON MKTPL REFUND*B2SJY",
+   "amount": 43.51,
+   "balance": 149989.95
+  },
+  {
+   "txn_id": "T0337",
+   "date": "2026-08-10",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -34.51,
+   "balance": 149955.44
+  },
+  {
+   "txn_id": "T0338",
+   "date": "2026-08-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 149939.45
+  },
+  {
+   "txn_id": "T0339",
+   "date": "2026-08-11",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -53.56,
+   "balance": 149885.89
+  },
+  {
+   "txn_id": "T0340",
+   "date": "2026-08-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 149795.89
+  },
+  {
+   "txn_id": "T0341",
+   "date": "2026-08-14",
+   "description": "STRIPE TRANSFER ST-RK3FBW",
+   "amount": 963.49,
+   "balance": 150759.38
+  },
+  {
+   "txn_id": "T0342",
+   "date": "2026-08-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 150749.39
+  },
+  {
+   "txn_id": "T0343",
+   "date": "2026-08-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7935.44,
+   "balance": 142813.95
+  },
+  {
+   "txn_id": "T0344",
+   "date": "2026-08-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2288.52,
+   "balance": 140525.43
+  },
+  {
+   "txn_id": "T0345",
+   "date": "2026-08-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 140445.43
+  },
+  {
+   "txn_id": "T0346",
+   "date": "2026-08-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 140255.48
+  },
+  {
+   "txn_id": "T0347",
+   "date": "2026-08-19",
+   "description": "STRIPE TRANSFER ST-HIAYF5",
+   "amount": 2184.39,
+   "balance": 142439.87
+  },
+  {
+   "txn_id": "T0348",
+   "date": "2026-08-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -251.09,
+   "balance": 142188.78
+  },
+  {
+   "txn_id": "T0349",
+   "date": "2026-08-21",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -32.88,
+   "balance": 142155.9
+  },
+  {
+   "txn_id": "T0350",
+   "date": "2026-08-22",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1529",
+   "amount": 9085.97,
+   "balance": 151241.87
+  },
+  {
+   "txn_id": "T0351",
+   "date": "2026-08-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0819",
+   "amount": -2867.96,
+   "balance": 148373.91
+  },
+  {
+   "txn_id": "T0352",
+   "date": "2026-08-23",
+   "description": "AMAZON MKTPL*LT8AB AMZN.COM/BILL WA",
+   "amount": -78.1,
+   "balance": 148295.81
+  },
+  {
+   "txn_id": "T0353",
+   "date": "2026-08-25",
+   "description": "AMAZON MKTPL*L3GP4 AMZN.COM/BILL WA",
+   "amount": -141.33,
+   "balance": 148154.48
+  },
+  {
+   "txn_id": "T0354",
+   "date": "2026-08-26",
+   "description": "STRIPE TRANSFER ST-I7P4JU",
+   "amount": 1186.55,
+   "balance": 149341.03
+  },
+  {
+   "txn_id": "T0355",
+   "date": "2026-08-26",
+   "description": "ONLINE TRANSFER TO SAV XXXXXX3301",
+   "amount": -2000.0,
+   "balance": 147341.03
+  },
+  {
+   "txn_id": "T0356",
+   "date": "2026-08-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 143341.03
+  },
+  {
+   "txn_id": "T0357",
+   "date": "2026-08-31",
+   "description": "INTEREST PAYMENT",
+   "amount": 7.35,
+   "balance": 143348.38
+  },
+  {
+   "txn_id": "T0358",
+   "date": "2026-08-31",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7833.29,
+   "balance": 135515.09
+  },
+  {
+   "txn_id": "T0359",
+   "date": "2026-08-31",
+   "description": "GUSTO TAX HU66",
+   "amount": -2236.33,
+   "balance": 133278.76
+  },
+  {
+   "txn_id": "T0360",
+   "date": "2026-08-31",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 133253.76
+  },
+  {
+   "txn_id": "T0361",
+   "date": "2026-09-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 130053.76
+  },
+  {
+   "txn_id": "T0362",
+   "date": "2026-09-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -366.33,
+   "balance": 129687.43
+  },
+  {
+   "txn_id": "T0363",
+   "date": "2026-09-02",
+   "description": "AMAZON MKTPL*GEVJ3 AMZN.COM/BILL WA",
+   "amount": -122.24,
+   "balance": 129565.19
+  },
+  {
+   "txn_id": "T0364",
+   "date": "2026-09-03",
+   "description": "STRIPE TRANSFER ST-6V9T0O",
+   "amount": 2964.85,
+   "balance": 132530.04
+  },
+  {
+   "txn_id": "T0365",
+   "date": "2026-09-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 132350.07
+  },
+  {
+   "txn_id": "T0366",
+   "date": "2026-09-04",
+   "description": "GOOGLE *CLOUD B8FGH",
+   "amount": -57.39,
+   "balance": 132292.68
+  },
+  {
+   "txn_id": "T0367",
+   "date": "2026-09-04",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -14.95,
+   "balance": 132277.73
+  },
+  {
+   "txn_id": "T0368",
+   "date": "2026-09-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 131227.73
+  },
+  {
+   "txn_id": "T0369",
+   "date": "2026-09-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 131143.73
+  },
+  {
+   "txn_id": "T0370",
+   "date": "2026-09-05",
+   "description": "AMAZON MKTPL*GM95V AMZN.COM/BILL WA",
+   "amount": -117.14,
+   "balance": 131026.59
+  },
+  {
+   "txn_id": "T0371",
+   "date": "2026-09-06",
+   "description": "GOOGLE *ADS2631",
+   "amount": -850.89,
+   "balance": 130175.7
+  },
+  {
+   "txn_id": "T0372",
+   "date": "2026-09-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 130131.95
+  },
+  {
+   "txn_id": "T0373",
+   "date": "2026-09-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 130086.95
+  },
+  {
+   "txn_id": "T0374",
+   "date": "2026-09-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 130070.96
+  },
+  {
+   "txn_id": "T0375",
+   "date": "2026-09-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 129980.96
+  },
+  {
+   "txn_id": "T0376",
+   "date": "2026-09-13",
+   "description": "STRIPE TRANSFER ST-P9YWBG",
+   "amount": 1319.47,
+   "balance": 131300.43
+  },
+  {
+   "txn_id": "T0377",
+   "date": "2026-09-13",
+   "description": "AMAZON MKTPL*7G0PU AMZN.COM/BILL WA",
+   "amount": -73.14,
+   "balance": 131227.29
+  },
+  {
+   "txn_id": "T0378",
+   "date": "2026-09-13",
+   "description": "STAPLES 004878",
+   "amount": -51.95,
+   "balance": 131175.34
+  },
+  {
+   "txn_id": "T0379",
+   "date": "2026-09-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 131165.35
+  },
+  {
+   "txn_id": "T0380",
+   "date": "2026-09-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8047.11,
+   "balance": 123118.24
+  },
+  {
+   "txn_id": "T0381",
+   "date": "2026-09-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2194.58,
+   "balance": 120923.66
+  },
+  {
+   "txn_id": "T0382",
+   "date": "2026-09-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 120843.66
+  },
+  {
+   "txn_id": "T0383",
+   "date": "2026-09-15",
+   "description": "LINKEDIN *JOBS",
+   "amount": -295.0,
+   "balance": 120548.66
+  },
+  {
+   "txn_id": "T0384",
+   "date": "2026-09-15",
+   "description": "UBER *EATS 8005928996",
+   "amount": -57.3,
+   "balance": 120491.36
+  },
+  {
+   "txn_id": "T0385",
+   "date": "2026-09-15",
+   "description": "UBER *EATS 8005928996",
+   "amount": -16.39,
+   "balance": 120474.97
+  },
+  {
+   "txn_id": "T0386",
+   "date": "2026-09-16",
+   "description": "WIRE IN KESTREL LOGISTICS REF 41793",
+   "amount": 7405.02,
+   "balance": 127879.99
+  },
+  {
+   "txn_id": "T0387",
+   "date": "2026-09-16",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -33.46,
+   "balance": 127846.53
+  },
+  {
+   "txn_id": "T0388",
+   "date": "2026-09-17",
+   "description": "PANERA BREAD #162",
+   "amount": -35.07,
+   "balance": 127811.46
+  },
+  {
+   "txn_id": "T0389",
+   "date": "2026-09-18",
+   "description": "STRIPE TRANSFER ST-OA071Y",
+   "amount": 2170.19,
+   "balance": 129981.65
+  },
+  {
+   "txn_id": "T0390",
+   "date": "2026-09-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 129791.7
+  },
+  {
+   "txn_id": "T0391",
+   "date": "2026-09-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -170.93,
+   "balance": 129620.77
+  },
+  {
+   "txn_id": "T0392",
+   "date": "2026-09-21",
+   "description": "ACH CREDIT KESTREL LOGISTICS INV-1844",
+   "amount": 6367.73,
+   "balance": 135988.5
+  },
+  {
+   "txn_id": "T0393",
+   "date": "2026-09-21",
+   "description": "UPWORK -REF929639",
+   "amount": -646.03,
+   "balance": 135342.47
+  },
+  {
+   "txn_id": "T0394",
+   "date": "2026-09-22",
+   "description": "STRIPE TRANSFER ST-86S6WW",
+   "amount": 2452.72,
+   "balance": 137795.19
+  },
+  {
+   "txn_id": "T0395",
+   "date": "2026-09-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 0915",
+   "amount": -1516.45,
+   "balance": 136278.74
+  },
+  {
+   "txn_id": "T0396",
+   "date": "2026-09-23",
+   "description": "WIRE IN BLUEWAVE HEALTH REF 86082",
+   "amount": 7000.29,
+   "balance": 143279.03
+  },
+  {
+   "txn_id": "T0397",
+   "date": "2026-09-23",
+   "description": "ACH CREDIT ORBIT FOODS INV-1060",
+   "amount": 9282.85,
+   "balance": 152561.88
+  },
+  {
+   "txn_id": "T0398",
+   "date": "2026-09-23",
+   "description": "DELL MARKETING L.P.",
+   "amount": -1640.0,
+   "balance": 150921.88
+  },
+  {
+   "txn_id": "T0399",
+   "date": "2026-09-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 146921.88
+  },
+  {
+   "txn_id": "T0400",
+   "date": "2026-09-30",
+   "description": "INTEREST PAYMENT",
+   "amount": 4.87,
+   "balance": 146926.75
+  },
+  {
+   "txn_id": "T0401",
+   "date": "2026-09-30",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8125.62,
+   "balance": 138801.13
+  },
+  {
+   "txn_id": "T0402",
+   "date": "2026-09-30",
+   "description": "GUSTO TAX HU66",
+   "amount": -2187.09,
+   "balance": 136614.04
+  },
+  {
+   "txn_id": "T0403",
+   "date": "2026-09-30",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 136589.04
+  },
+  {
+   "txn_id": "T0404",
+   "date": "2026-10-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 133389.04
+  },
+  {
+   "txn_id": "T0405",
+   "date": "2026-10-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -513.05,
+   "balance": 132875.99
+  },
+  {
+   "txn_id": "T0406",
+   "date": "2026-10-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 132696.02
+  },
+  {
+   "txn_id": "T0407",
+   "date": "2026-10-03",
+   "description": "AMAZON MKTPL*BS88D AMZN.COM/BILL WA",
+   "amount": -43.0,
+   "balance": 132653.02
+  },
+  {
+   "txn_id": "T0408",
+   "date": "2026-10-03",
+   "description": "PANERA BREAD #995",
+   "amount": -18.54,
+   "balance": 132634.48
+  },
+  {
+   "txn_id": "T0409",
+   "date": "2026-10-03",
+   "description": "ONLINE TRANSFER FROM SAV XXXXXX3301",
+   "amount": 5000.0,
+   "balance": 137634.48
+  },
+  {
+   "txn_id": "T0410",
+   "date": "2026-10-04",
+   "description": "WIRE IN ORBIT FOODS REF 85742",
+   "amount": 12146.5,
+   "balance": 149780.98
+  },
+  {
+   "txn_id": "T0411",
+   "date": "2026-10-04",
+   "description": "GOOGLE *CLOUD GX12U",
+   "amount": -85.55,
+   "balance": 149695.43
+  },
+  {
+   "txn_id": "T0412",
+   "date": "2026-10-04",
+   "description": "FACEBK *ADS OLDX83",
+   "amount": -230.94,
+   "balance": 149464.49
+  },
+  {
+   "txn_id": "T0413",
+   "date": "2026-10-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 148414.49
+  },
+  {
+   "txn_id": "T0414",
+   "date": "2026-10-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 148330.49
+  },
+  {
+   "txn_id": "T0415",
+   "date": "2026-10-05",
+   "description": "STARBUCKS STORE 40065",
+   "amount": -69.16,
+   "balance": 148261.33
+  },
+  {
+   "txn_id": "T0416",
+   "date": "2026-10-06",
+   "description": "GOOGLE *ADS5216",
+   "amount": -301.34,
+   "balance": 147959.99
+  },
+  {
+   "txn_id": "T0417",
+   "date": "2026-10-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 147916.24
+  },
+  {
+   "txn_id": "T0418",
+   "date": "2026-10-08",
+   "description": "PANERA BREAD #954",
+   "amount": -79.67,
+   "balance": 147836.57
+  },
+  {
+   "txn_id": "T0419",
+   "date": "2026-10-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 147791.57
+  },
+  {
+   "txn_id": "T0420",
+   "date": "2026-10-10",
+   "description": "STRIPE TRANSFER ST-C9Q73S",
+   "amount": 1709.5,
+   "balance": 149501.07
+  },
+  {
+   "txn_id": "T0421",
+   "date": "2026-10-10",
+   "description": "STRIPE TRANSFER ST-N2KW7T",
+   "amount": 2895.88,
+   "balance": 152396.95
+  },
+  {
+   "txn_id": "T0422",
+   "date": "2026-10-10",
+   "description": "STAPLES 007290",
+   "amount": -64.0,
+   "balance": 152332.95
+  },
+  {
+   "txn_id": "T0423",
+   "date": "2026-10-10",
+   "description": "THE HARTFORD INS PREM",
+   "amount": -1140.0,
+   "balance": 151192.95
+  },
+  {
+   "txn_id": "T0424",
+   "date": "2026-10-11",
+   "description": "STRIPE TRANSFER ST-HPAMVU",
+   "amount": 2401.61,
+   "balance": 153594.56
+  },
+  {
+   "txn_id": "T0425",
+   "date": "2026-10-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 153578.57
+  },
+  {
+   "txn_id": "T0426",
+   "date": "2026-10-11",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -19.84,
+   "balance": 153558.73
+  },
+  {
+   "txn_id": "T0427",
+   "date": "2026-10-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 153468.73
+  },
+  {
+   "txn_id": "T0428",
+   "date": "2026-10-13",
+   "description": "ACH CREDIT ACME CORP INV-1955",
+   "amount": 10266.94,
+   "balance": 163735.67
+  },
+  {
+   "txn_id": "T0429",
+   "date": "2026-10-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 163725.68
+  },
+  {
+   "txn_id": "T0430",
+   "date": "2026-10-14",
+   "description": "AMAZON MKTPL*WQ4AX AMZN.COM/BILL WA",
+   "amount": -89.07,
+   "balance": 163636.61
+  },
+  {
+   "txn_id": "T0431",
+   "date": "2026-10-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7849.11,
+   "balance": 155787.5
+  },
+  {
+   "txn_id": "T0432",
+   "date": "2026-10-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2167.29,
+   "balance": 153620.21
+  },
+  {
+   "txn_id": "T0433",
+   "date": "2026-10-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 153540.21
+  },
+  {
+   "txn_id": "T0434",
+   "date": "2026-10-15",
+   "description": "DOORDASH*SHAKE SHACK",
+   "amount": -79.01,
+   "balance": 153461.2
+  },
+  {
+   "txn_id": "T0435",
+   "date": "2026-10-15",
+   "description": "IRS USATAXPYMT 798514503480",
+   "amount": -3500.0,
+   "balance": 149961.2
+  },
+  {
+   "txn_id": "T0436",
+   "date": "2026-10-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 149771.25
+  },
+  {
+   "txn_id": "T0437",
+   "date": "2026-10-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -210.9,
+   "balance": 149560.35
+  },
+  {
+   "txn_id": "T0438",
+   "date": "2026-10-21",
+   "description": "ACH CREDIT KESTREL LOGISTICS INV-1887",
+   "amount": 9048.72,
+   "balance": 158609.07
+  },
+  {
+   "txn_id": "T0439",
+   "date": "2026-10-21",
+   "description": "ACH CREDIT BLUEWAVE HEALTH INV-1536",
+   "amount": 6268.97,
+   "balance": 164878.04
+  },
+  {
+   "txn_id": "T0440",
+   "date": "2026-10-22",
+   "description": "DOORDASH*PANERA",
+   "amount": -79.66,
+   "balance": 164798.38
+  },
+  {
+   "txn_id": "T0441",
+   "date": "2026-10-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 1024",
+   "amount": -2948.49,
+   "balance": 161849.89
+  },
+  {
+   "txn_id": "T0442",
+   "date": "2026-10-24",
+   "description": "PANERA BREAD #721",
+   "amount": -11.76,
+   "balance": 161838.13
+  },
+  {
+   "txn_id": "T0443",
+   "date": "2026-10-25",
+   "description": "SMITH & CO CPA",
+   "amount": -950.0,
+   "balance": 160888.13
+  },
+  {
+   "txn_id": "T0444",
+   "date": "2026-10-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 156888.13
+  },
+  {
+   "txn_id": "T0445",
+   "date": "2026-10-31",
+   "description": "INTEREST PAYMENT",
+   "amount": 8.8,
+   "balance": 156896.93
+  },
+  {
+   "txn_id": "T0446",
+   "date": "2026-10-31",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8058.78,
+   "balance": 148838.15
+  },
+  {
+   "txn_id": "T0447",
+   "date": "2026-10-31",
+   "description": "GUSTO TAX HU66",
+   "amount": -2222.45,
+   "balance": 146615.7
+  },
+  {
+   "txn_id": "T0448",
+   "date": "2026-10-31",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 146590.7
+  },
+  {
+   "txn_id": "T0449",
+   "date": "2026-11-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 143390.7
+  },
+  {
+   "txn_id": "T0450",
+   "date": "2026-11-02",
+   "description": "STRIPE TRANSFER ST-GM3YEX",
+   "amount": 1660.01,
+   "balance": 145050.71
+  },
+  {
+   "txn_id": "T0451",
+   "date": "2026-11-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -367.96,
+   "balance": 144682.75
+  },
+  {
+   "txn_id": "T0452",
+   "date": "2026-11-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 144502.78
+  },
+  {
+   "txn_id": "T0453",
+   "date": "2026-11-04",
+   "description": "STRIPE TRANSFER ST-AXFR9O",
+   "amount": 1227.73,
+   "balance": 145730.51
+  },
+  {
+   "txn_id": "T0454",
+   "date": "2026-11-04",
+   "description": "GOOGLE *CLOUD QHYQ4",
+   "amount": -69.05,
+   "balance": 145661.46
+  },
+  {
+   "txn_id": "T0455",
+   "date": "2026-11-04",
+   "description": "PANERA BREAD #794",
+   "amount": -44.87,
+   "balance": 145616.59
+  },
+  {
+   "txn_id": "T0456",
+   "date": "2026-11-04",
+   "description": "STARBUCKS STORE 47217",
+   "amount": -30.41,
+   "balance": 145586.18
+  },
+  {
+   "txn_id": "T0457",
+   "date": "2026-11-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 144536.18
+  },
+  {
+   "txn_id": "T0458",
+   "date": "2026-11-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 144452.18
+  },
+  {
+   "txn_id": "T0459",
+   "date": "2026-11-06",
+   "description": "GOOGLE *ADS4708",
+   "amount": -731.28,
+   "balance": 143720.9
+  },
+  {
+   "txn_id": "T0460",
+   "date": "2026-11-06",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -26.34,
+   "balance": 143694.56
+  },
+  {
+   "txn_id": "T0461",
+   "date": "2026-11-07",
+   "description": "ACH CREDIT BLUEWAVE HEALTH INV-1781",
+   "amount": 10609.33,
+   "balance": 154303.89
+  },
+  {
+   "txn_id": "T0462",
+   "date": "2026-11-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 154260.14
+  },
+  {
+   "txn_id": "T0463",
+   "date": "2026-11-08",
+   "description": "DOORDASH*CHIPOTLE",
+   "amount": -10.14,
+   "balance": 154250.0
+  },
+  {
+   "txn_id": "T0464",
+   "date": "2026-11-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 154205.0
+  },
+  {
+   "txn_id": "T0465",
+   "date": "2026-11-10",
+   "description": "STRIPE TRANSFER ST-FT89H8",
+   "amount": 960.95,
+   "balance": 155165.95
+  },
+  {
+   "txn_id": "T0466",
+   "date": "2026-11-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 155149.96
+  },
+  {
+   "txn_id": "T0467",
+   "date": "2026-11-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 155059.96
+  },
+  {
+   "txn_id": "T0468",
+   "date": "2026-11-13",
+   "description": "AMAZON MKTPL*4EIS8 AMZN.COM/BILL WA",
+   "amount": -32.63,
+   "balance": 155027.33
+  },
+  {
+   "txn_id": "T0469",
+   "date": "2026-11-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 155017.34
+  },
+  {
+   "txn_id": "T0470",
+   "date": "2026-11-14",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -54.91,
+   "balance": 154962.43
+  },
+  {
+   "txn_id": "T0471",
+   "date": "2026-11-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8023.29,
+   "balance": 146939.14
+  },
+  {
+   "txn_id": "T0472",
+   "date": "2026-11-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2257.31,
+   "balance": 144681.83
+  },
+  {
+   "txn_id": "T0473",
+   "date": "2026-11-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 144601.83
+  },
+  {
+   "txn_id": "T0474",
+   "date": "2026-11-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 144411.88
+  },
+  {
+   "txn_id": "T0475",
+   "date": "2026-11-18",
+   "description": "PANERA BREAD #359",
+   "amount": -72.55,
+   "balance": 144339.33
+  },
+  {
+   "txn_id": "T0476",
+   "date": "2026-11-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -181.9,
+   "balance": 144157.43
+  },
+  {
+   "txn_id": "T0477",
+   "date": "2026-11-22",
+   "description": "UBER *EATS 8005928996",
+   "amount": -23.6,
+   "balance": 144133.83
+  },
+  {
+   "txn_id": "T0478",
+   "date": "2026-11-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 1120",
+   "amount": -2310.92,
+   "balance": 141822.91
+  },
+  {
+   "txn_id": "T0479",
+   "date": "2026-11-24",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -18.75,
+   "balance": 141804.16
+  },
+  {
+   "txn_id": "T0480",
+   "date": "2026-11-25",
+   "description": "ACH CREDIT ORBIT FOODS INV-1473",
+   "amount": 8667.04,
+   "balance": 150471.2
+  },
+  {
+   "txn_id": "T0481",
+   "date": "2026-11-26",
+   "description": "ACH CREDIT ACME CORP INV-1096",
+   "amount": 10573.81,
+   "balance": 161045.01
+  },
+  {
+   "txn_id": "T0482",
+   "date": "2026-11-26",
+   "description": "ONLINE TRANSFER TO SAV XXXXXX3301",
+   "amount": -2000.0,
+   "balance": 159045.01
+  },
+  {
+   "txn_id": "T0483",
+   "date": "2026-11-28",
+   "description": "WIRE TRANSFER FEE",
+   "amount": -30.0,
+   "balance": 159015.01
+  },
+  {
+   "txn_id": "T0484",
+   "date": "2026-11-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 155015.01
+  },
+  {
+   "txn_id": "T0485",
+   "date": "2026-11-30",
+   "description": "INTEREST PAYMENT",
+   "amount": 5.13,
+   "balance": 155020.14
+  },
+  {
+   "txn_id": "T0486",
+   "date": "2026-11-30",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -8147.77,
+   "balance": 146872.37
+  },
+  {
+   "txn_id": "T0487",
+   "date": "2026-11-30",
+   "description": "GUSTO TAX HU66",
+   "amount": -2134.16,
+   "balance": 144738.21
+  },
+  {
+   "txn_id": "T0488",
+   "date": "2026-11-30",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 144713.21
+  },
+  {
+   "txn_id": "T0489",
+   "date": "2026-12-01",
+   "description": "ONLINE PMT RIVERSIDE PROPERTIES LLC",
+   "amount": -3200.0,
+   "balance": 141513.21
+  },
+  {
+   "txn_id": "T0490",
+   "date": "2026-12-02",
+   "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA",
+   "amount": -615.77,
+   "balance": 140897.44
+  },
+  {
+   "txn_id": "T0491",
+   "date": "2026-12-03",
+   "description": "ADOBE *CREATIVE CLD ADOBE.LY/ENUS",
+   "amount": -179.97,
+   "balance": 140717.47
+  },
+  {
+   "txn_id": "T0492",
+   "date": "2026-12-03",
+   "description": "WIRE TRANSFER FEE",
+   "amount": -30.0,
+   "balance": 140687.47
+  },
+  {
+   "txn_id": "T0493",
+   "date": "2026-12-04",
+   "description": "GOOGLE *CLOUD IMTLT",
+   "amount": -100.08,
+   "balance": 140587.39
+  },
+  {
+   "txn_id": "T0494",
+   "date": "2026-12-04",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -35.16,
+   "balance": 140552.23
+  },
+  {
+   "txn_id": "T0495",
+   "date": "2026-12-05",
+   "description": "SBA LOAN PMT 4471",
+   "amount": -1050.0,
+   "balance": 139502.23
+  },
+  {
+   "txn_id": "T0496",
+   "date": "2026-12-05",
+   "description": "GOOGLE *WORKSPACE NORTHWI",
+   "amount": -84.0,
+   "balance": 139418.23
+  },
+  {
+   "txn_id": "T0497",
+   "date": "2026-12-06",
+   "description": "GOOGLE *ADS6418",
+   "amount": -629.95,
+   "balance": 138788.28
+  },
+  {
+   "txn_id": "T0498",
+   "date": "2026-12-07",
+   "description": "SLACK T02KX9 DUBLIN",
+   "amount": -43.75,
+   "balance": 138744.53
+  },
+  {
+   "txn_id": "T0499",
+   "date": "2026-12-08",
+   "description": "AMAZON MKTPL*85QUP AMZN.COM/BILL WA",
+   "amount": -138.39,
+   "balance": 138606.14
+  },
+  {
+   "txn_id": "T0500",
+   "date": "2026-12-09",
+   "description": "STRIPE TRANSFER ST-1ONRN3",
+   "amount": 2901.19,
+   "balance": 141507.33
+  },
+  {
+   "txn_id": "T0501",
+   "date": "2026-12-09",
+   "description": "FIGMA MONTHLY",
+   "amount": -45.0,
+   "balance": 141462.33
+  },
+  {
+   "txn_id": "T0502",
+   "date": "2026-12-09",
+   "description": "UBER *TRIP HELP.UBER.COM",
+   "amount": -47.2,
+   "balance": 141415.13
+  },
+  {
+   "txn_id": "T0503",
+   "date": "2026-12-11",
+   "description": "ZOOM.US 888-799-9666",
+   "amount": -15.99,
+   "balance": 141399.14
+  },
+  {
+   "txn_id": "T0504",
+   "date": "2026-12-12",
+   "description": "ACH CREDIT ACME CORP INV-1894",
+   "amount": 7541.55,
+   "balance": 148940.69
+  },
+  {
+   "txn_id": "T0505",
+   "date": "2026-12-12",
+   "description": "INTUIT *QBOOKS ONLINE",
+   "amount": -90.0,
+   "balance": 148850.69
+  },
+  {
+   "txn_id": "T0506",
+   "date": "2026-12-12",
+   "description": "PANERA BREAD #953",
+   "amount": -61.54,
+   "balance": 148789.15
+  },
+  {
+   "txn_id": "T0507",
+   "date": "2026-12-14",
+   "description": "APPLE.COM/BILL 866-712-7753",
+   "amount": -9.99,
+   "balance": 148779.16
+  },
+  {
+   "txn_id": "T0508",
+   "date": "2026-12-15",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7815.36,
+   "balance": 140963.8
+  },
+  {
+   "txn_id": "T0509",
+   "date": "2026-12-15",
+   "description": "GUSTO TAX HU66",
+   "amount": -2294.16,
+   "balance": 138669.64
+  },
+  {
+   "txn_id": "T0510",
+   "date": "2026-12-15",
+   "description": "GUSTO FEE HU66",
+   "amount": -80.0,
+   "balance": 138589.64
+  },
+  {
+   "txn_id": "T0511",
+   "date": "2026-12-17",
+   "description": "STRIPE TRANSFER ST-J4ZHWH",
+   "amount": 1381.27,
+   "balance": 139970.91
+  },
+  {
+   "txn_id": "T0512",
+   "date": "2026-12-18",
+   "description": "COMCAST BUSINESS 800-391-3000",
+   "amount": -189.95,
+   "balance": 139780.96
+  },
+  {
+   "txn_id": "T0513",
+   "date": "2026-12-19",
+   "description": "WIRE IN SUMMIT LEARNING REF 93097",
+   "amount": 10198.32,
+   "balance": 149979.28
+  },
+  {
+   "txn_id": "T0514",
+   "date": "2026-12-19",
+   "description": "AMAZON MKTPL*1MFZY AMZN.COM/BILL WA",
+   "amount": -156.65,
+   "balance": 149822.63
+  },
+  {
+   "txn_id": "T0515",
+   "date": "2026-12-20",
+   "description": "PEPCO BILL PAY",
+   "amount": -198.65,
+   "balance": 149623.98
+  },
+  {
+   "txn_id": "T0516",
+   "date": "2026-12-22",
+   "description": "ZELLE TO MARIA LOPEZ MEMO: DESIGN INV 1212",
+   "amount": -1679.5,
+   "balance": 147944.48
+  },
+  {
+   "txn_id": "T0517",
+   "date": "2026-12-23",
+   "description": "ACH CREDIT SUMMIT LEARNING INV-1500",
+   "amount": 9829.73,
+   "balance": 157774.21
+  },
+  {
+   "txn_id": "T0518",
+   "date": "2026-12-23",
+   "description": "ACH CREDIT ACME CORP INV-1053",
+   "amount": 9500.44,
+   "balance": 167274.65
+  },
+  {
+   "txn_id": "T0519",
+   "date": "2026-12-24",
+   "description": "DOORDASH*SHAKE SHACK",
+   "amount": -15.07,
+   "balance": 167259.58
+  },
+  {
+   "txn_id": "T0520",
+   "date": "2026-12-25",
+   "description": "PANERA BREAD #637",
+   "amount": -32.21,
+   "balance": 167227.37
+  },
+  {
+   "txn_id": "T0521",
+   "date": "2026-12-26",
+   "description": "ACH CREDIT ORBIT FOODS INV-1082",
+   "amount": 9455.32,
+   "balance": 176682.69
+  },
+  {
+   "txn_id": "T0522",
+   "date": "2026-12-28",
+   "description": "PANERA BREAD #516",
+   "amount": -43.01,
+   "balance": 176639.68
+  },
+  {
+   "txn_id": "T0523",
+   "date": "2026-12-28",
+   "description": "ONLINE TRANSFER TO CHK XXXXXX8812 PERSONAL",
+   "amount": -4000.0,
+   "balance": 172639.68
+  },
+  {
+   "txn_id": "T0524",
+   "date": "2026-12-31",
+   "description": "INTEREST PAYMENT",
+   "amount": 4.04,
+   "balance": 172643.72
+  },
+  {
+   "txn_id": "T0525",
+   "date": "2026-12-31",
+   "description": "GUSTO NET PAY HU66",
+   "amount": -7989.85,
+   "balance": 164653.87
+  },
+  {
+   "txn_id": "T0526",
+   "date": "2026-12-31",
+   "description": "GUSTO TAX HU66",
+   "amount": -2134.53,
+   "balance": 162519.34
+  },
+  {
+   "txn_id": "T0527",
+   "date": "2026-12-31",
+   "description": "MONTHLY MAINTENANCE FEE",
+   "amount": -25.0,
+   "balance": 162494.34
+  }
+ ],
+ "truth": {
+  "T0001": "Rent",
+  "T0002": "Service Revenue",
+  "T0003": "Cloud Hosting",
+  "T0004": "Software & Subscriptions",
+  "T0005": "Travel",
+  "T0006": "Service Revenue",
+  "T0007": "Cloud Hosting",
+  "T0008": "Meals",
+  "T0009": "Loan Payable",
+  "T0010": "Software & Subscriptions",
+  "T0011": "Office Supplies",
+  "T0012": "Office Supplies",
+  "T0013": "Advertising & Marketing",
+  "T0014": "Meals",
+  "T0015": "Software & Subscriptions",
+  "T0016": "Service Revenue",
+  "T0017": "Software & Subscriptions",
+  "T0018": "Insurance",
+  "T0019": "Service Revenue",
+  "T0020": "Software & Subscriptions",
+  "T0021": "Office Supplies",
+  "T0022": "Software & Subscriptions",
+  "T0023": "Travel",
+  "T0024": "Meals",
+  "T0025": "Software & Subscriptions",
+  "T0026": "Wages",
+  "T0027": "Payroll Taxes",
+  "T0028": "Professional Fees",
+  "T0029": "Owner Draws",
+  "T0030": "Service Revenue",
+  "T0031": "Utilities",
+  "T0032": "Office Supplies",
+  "T0033": "Travel",
+  "T0034": "Utilities",
+  "T0035": "Service Revenue",
+  "T0036": "Meals",
+  "T0037": "Bank & Merchant Fees",
+  "T0038": "Contractors",
+  "T0039": "Meals",
+  "T0040": "Service Revenue",
+  "T0041": "Professional Fees",
+  "T0042": "Meals",
+  "T0043": "Service Revenue",
+  "T0044": "Travel",
+  "T0045": "Meals",
+  "T0046": "Owner Draws",
+  "T0047": "Interest Income",
+  "T0048": "Wages",
+  "T0049": "Payroll Taxes",
+  "T0050": "Bank & Merchant Fees",
+  "T0051": "Rent",
+  "T0052": "Cloud Hosting",
+  "T0053": "Travel",
+  "T0054": "Meals",
+  "T0055": "Service Revenue",
+  "T0056": "Software & Subscriptions",
+  "T0057": "Cloud Hosting",
+  "T0058": "Travel",
+  "T0059": "Loan Payable",
+  "T0060": "Software & Subscriptions",
+  "T0061": "Meals",
+  "T0062": "Meals",
+  "T0063": "Advertising & Marketing",
+  "T0064": "Software & Subscriptions",
+  "T0065": "Travel",
+  "T0066": "Travel",
+  "T0067": "Meals",
+  "T0068": "Software & Subscriptions",
+  "T0069": "Software & Subscriptions",
+  "T0070": "Meals",
+  "T0071": "Service Revenue",
+  "T0072": "Software & Subscriptions",
+  "T0073": "Service Revenue",
+  "T0074": "Software & Subscriptions",
+  "T0075": "Office Supplies",
+  "T0076": "Service Revenue",
+  "T0077": "Wages",
+  "T0078": "Payroll Taxes",
+  "T0079": "Professional Fees",
+  "T0080": "Service Revenue",
+  "T0081": "Advertising & Marketing",
+  "T0082": "Utilities",
+  "T0083": "Meals",
+  "T0084": "Utilities",
+  "T0085": "Service Revenue",
+  "T0086": "Service Revenue",
+  "T0087": "Meals",
+  "T0088": "Contractors",
+  "T0089": "Service Revenue",
+  "T0090": "Meals",
+  "T0091": "Savings Account",
+  "T0092": "Interest Income",
+  "T0093": "Wages",
+  "T0094": "Payroll Taxes",
+  "T0095": "Bank & Merchant Fees",
+  "T0096": "Owner Draws",
+  "T0097": "Rent",
+  "T0098": "Cloud Hosting",
+  "T0099": "Service Revenue",
+  "T0100": "Software & Subscriptions",
+  "T0101": "Cloud Hosting",
+  "T0102": "Service Revenue",
+  "T0103": "Loan Payable",
+  "T0104": "Software & Subscriptions",
+  "T0105": "Advertising & Marketing",
+  "T0106": "Software & Subscriptions",
+  "T0107": "Meals",
+  "T0108": "Software & Subscriptions",
+  "T0109": "Office Supplies",
+  "T0110": "Software & Subscriptions",
+  "T0111": "Software & Subscriptions",
+  "T0112": "Meals",
+  "T0113": "Service Revenue",
+  "T0114": "Software & Subscriptions",
+  "T0115": "Travel",
+  "T0116": "Service Revenue",
+  "T0117": "Wages",
+  "T0118": "Payroll Taxes",
+  "T0119": "Professional Fees",
+  "T0120": "Owner Contributions",
+  "T0121": "Utilities",
+  "T0122": "Office Supplies",
+  "T0123": "Meals",
+  "T0124": "Utilities",
+  "T0125": "Service Revenue",
+  "T0126": "Office Supplies",
+  "T0127": "Meals",
+  "T0128": "Contractors",
+  "T0129": "Service Revenue",
+  "T0130": "Service Revenue",
+  "T0131": "Office Supplies",
+  "T0132": "Advertising & Marketing",
+  "T0133": "Travel",
+  "T0134": "Bank & Merchant Fees",
+  "T0135": "Meals",
+  "T0136": "Owner Draws",
+  "T0137": "Interest Income",
+  "T0138": "Wages",
+  "T0139": "Payroll Taxes",
+  "T0140": "Bank & Merchant Fees",
+  "T0141": "Rent",
+  "T0142": "Cloud Hosting",
+  "T0143": "Software & Subscriptions",
+  "T0144": "Service Revenue",
+  "T0145": "Cloud Hosting",
+  "T0146": "Travel",
+  "T0147": "Loan Payable",
+  "T0148": "Software & Subscriptions",
+  "T0149": "Office Supplies",
+  "T0150": "Meals",
+  "T0151": "Advertising & Marketing",
+  "T0152": "Meals",
+  "T0153": "Software & Subscriptions",
+  "T0154": "Office Supplies",
+  "T0155": "Travel",
+  "T0156": "Meals",
+  "T0157": "Software & Subscriptions",
+  "T0158": "Meals",
+  "T0159": "Insurance",
+  "T0160": "Software & Subscriptions",
+  "T0161": "Software & Subscriptions",
+  "T0162": "Travel",
+  "T0163": "Service Revenue",
+  "T0164": "Software & Subscriptions",
+  "T0165": "Wages",
+  "T0166": "Payroll Taxes",
+  "T0167": "Professional Fees",
+  "T0168": "Meals",
+  "T0169": "Contractors",
+  "T0170": "Owner Draws",
+  "T0171": "Advertising & Marketing",
+  "T0172": "Utilities",
+  "T0173": "Office Supplies",
+  "T0174": "Travel",
+  "T0175": "Service Revenue",
+  "T0176": "Utilities",
+  "T0177": "Meals",
+  "T0178": "Contractors",
+  "T0179": "Service Revenue",
+  "T0180": "Service Revenue",
+  "T0181": "Professional Fees",
+  "T0182": "Meals",
+  "T0183": "Owner Draws",
+  "T0184": "Interest Income",
+  "T0185": "Wages",
+  "T0186": "Payroll Taxes",
+  "T0187": "Bank & Merchant Fees",
+  "T0188": "Rent",
+  "T0189": "Service Revenue",
+  "T0190": "Service Revenue",
+  "T0191": "Cloud Hosting",
+  "T0192": "Software & Subscriptions",
+  "T0193": "Cloud Hosting",
+  "T0194": "Travel",
+  "T0195": "Loan Payable",
+  "T0196": "Software & Subscriptions",
+  "T0197": "Advertising & Marketing",
+  "T0198": "Software & Subscriptions",
+  "T0199": "Service Revenue",
+  "T0200": "Service Revenue",
+  "T0201": "Software & Subscriptions",
+  "T0202": "Meals",
+  "T0203": "Software & Subscriptions",
+  "T0204": "Software & Subscriptions",
+  "T0205": "Travel",
+  "T0206": "Service Revenue",
+  "T0207": "Office Supplies",
+  "T0208": "Meals",
+  "T0209": "Software & Subscriptions",
+  "T0210": "Wages",
+  "T0211": "Payroll Taxes",
+  "T0212": "Professional Fees",
+  "T0213": "Service Revenue",
+  "T0214": "Travel",
+  "T0215": "Utilities",
+  "T0216": "Equipment",
+  "T0217": "Service Revenue",
+  "T0218": "Utilities",
+  "T0219": "Office Supplies",
+  "T0220": "Bank & Merchant Fees",
+  "T0221": "Meals",
+  "T0222": "Contractors",
+  "T0223": "Service Revenue",
+  "T0224": "Savings Account",
+  "T0225": "Meals",
+  "T0226": "Office Supplies",
+  "T0227": "Owner Draws",
+  "T0228": "Interest Income",
+  "T0229": "Wages",
+  "T0230": "Payroll Taxes",
+  "T0231": "Bank & Merchant Fees",
+  "T0232": "Rent",
+  "T0233": "Service Revenue",
+  "T0234": "Cloud Hosting",
+  "T0235": "Software & Subscriptions",
+  "T0236": "Service Revenue",
+  "T0237": "Cloud Hosting",
+  "T0238": "Loan Payable",
+  "T0239": "Software & Subscriptions",
+  "T0240": "Professional Fees",
+  "T0241": "Service Revenue",
+  "T0242": "Service Revenue",
+  "T0243": "Advertising & Marketing",
+  "T0244": "Service Revenue",
+  "T0245": "Software & Subscriptions",
+  "T0246": "Service Revenue",
+  "T0247": "Software & Subscriptions",
+  "T0248": "Software & Subscriptions",
+  "T0249": "Travel",
+  "T0250": "Meals",
+  "T0251": "Software & Subscriptions",
+  "T0252": "Meals",
+  "T0253": "Software & Subscriptions",
+  "T0254": "Travel",
+  "T0255": "Wages",
+  "T0256": "Payroll Taxes",
+  "T0257": "Professional Fees",
+  "T0258": "Office Supplies",
+  "T0259": "Service Revenue",
+  "T0260": "Utilities",
+  "T0261": "Travel",
+  "T0262": "Utilities",
+  "T0263": "Meals",
+  "T0264": "Contractors",
+  "T0265": "Service Revenue",
+  "T0266": "Service Revenue",
+  "T0267": "Office Supplies",
+  "T0268": "Meals",
+  "T0269": "Meals",
+  "T0270": "Owner Draws",
+  "T0271": "Interest Income",
+  "T0272": "Wages",
+  "T0273": "Payroll Taxes",
+  "T0274": "Bank & Merchant Fees",
+  "T0275": "Rent",
+  "T0276": "Cloud Hosting",
+  "T0277": "Software & Subscriptions",
+  "T0278": "Cloud Hosting",
+  "T0279": "Loan Payable",
+  "T0280": "Software & Subscriptions",
+  "T0281": "Office Supplies",
+  "T0282": "Service Revenue",
+  "T0283": "Advertising & Marketing",
+  "T0284": "Service Revenue",
+  "T0285": "Software & Subscriptions",
+  "T0286": "Meals",
+  "T0287": "Meals",
+  "T0288": "Software & Subscriptions",
+  "T0289": "Service Revenue",
+  "T0290": "Insurance",
+  "T0291": "Software & Subscriptions",
+  "T0292": "Software & Subscriptions",
+  "T0293": "Meals",
+  "T0294": "Service Revenue",
+  "T0295": "Software & Subscriptions",
+  "T0296": "Wages",
+  "T0297": "Payroll Taxes",
+  "T0298": "Professional Fees",
+  "T0299": "Owner Draws",
+  "T0300": "Service Revenue",
+  "T0301": "Utilities",
+  "T0302": "Office Supplies",
+  "T0303": "Utilities",
+  "T0304": "Service Revenue",
+  "T0305": "Contractors",
+  "T0306": "Contractors",
+  "T0307": "Service Revenue",
+  "T0308": "Travel",
+  "T0309": "Professional Fees",
+  "T0310": "Advertising & Marketing",
+  "T0311": "Travel",
+  "T0312": "Owner Draws",
+  "T0313": "Interest Income",
+  "T0314": "Wages",
+  "T0315": "Payroll Taxes",
+  "T0316": "Bank & Merchant Fees",
+  "T0317": "Rent",
+  "T0318": "Cloud Hosting",
+  "T0319": "Service Revenue",
+  "T0320": "Software & Subscriptions",
+  "T0321": "Service Revenue",
+  "T0322": "Service Revenue",
+  "T0323": "Cloud Hosting",
+  "T0324": "Loan Payable",
+  "T0325": "Software & Subscriptions",
+  "T0326": "Advertising & Marketing",
+  "T0327": "Service Revenue",
+  "T0328": "Software & Subscriptions",
+  "T0329": "Office Supplies",
+  "T0330": "Meals",
+  "T0331": "Meals",
+  "T0332": "Software & Subscriptions",
+  "T0333": "Advertising & Marketing",
+  "T0334": "Meals",
+  "T0335": "Meals",
+  "T0336": "Office Supplies",
+  "T0337": "Travel",
+  "T0338": "Software & Subscriptions",
+  "T0339": "Travel",
+  "T0340": "Software & Subscriptions",
+  "T0341": "Service Revenue",
+  "T0342": "Software & Subscriptions",
+  "T0343": "Wages",
+  "T0344": "Payroll Taxes",
+  "T0345": "Professional Fees",
+  "T0346": "Utilities",
+  "T0347": "Service Revenue",
+  "T0348": "Utilities",
+  "T0349": "Travel",
+  "T0350": "Service Revenue",
+  "T0351": "Contractors",
+  "T0352": "Office Supplies",
+  "T0353": "Office Supplies",
+  "T0354": "Service Revenue",
+  "T0355": "Savings Account",
+  "T0356": "Owner Draws",
+  "T0357": "Interest Income",
+  "T0358": "Wages",
+  "T0359": "Payroll Taxes",
+  "T0360": "Bank & Merchant Fees",
+  "T0361": "Rent",
+  "T0362": "Cloud Hosting",
+  "T0363": "Office Supplies",
+  "T0364": "Service Revenue",
+  "T0365": "Software & Subscriptions",
+  "T0366": "Cloud Hosting",
+  "T0367": "Travel",
+  "T0368": "Loan Payable",
+  "T0369": "Software & Subscriptions",
+  "T0370": "Office Supplies",
+  "T0371": "Advertising & Marketing",
+  "T0372": "Software & Subscriptions",
+  "T0373": "Software & Subscriptions",
+  "T0374": "Software & Subscriptions",
+  "T0375": "Software & Subscriptions",
+  "T0376": "Service Revenue",
+  "T0377": "Office Supplies",
+  "T0378": "Office Supplies",
+  "T0379": "Software & Subscriptions",
+  "T0380": "Wages",
+  "T0381": "Payroll Taxes",
+  "T0382": "Professional Fees",
+  "T0383": "Advertising & Marketing",
+  "T0384": "Meals",
+  "T0385": "Meals",
+  "T0386": "Service Revenue",
+  "T0387": "Travel",
+  "T0388": "Meals",
+  "T0389": "Service Revenue",
+  "T0390": "Utilities",
+  "T0391": "Utilities",
+  "T0392": "Service Revenue",
+  "T0393": "Contractors",
+  "T0394": "Service Revenue",
+  "T0395": "Contractors",
+  "T0396": "Service Revenue",
+  "T0397": "Service Revenue",
+  "T0398": "Equipment",
+  "T0399": "Owner Draws",
+  "T0400": "Interest Income",
+  "T0401": "Wages",
+  "T0402": "Payroll Taxes",
+  "T0403": "Bank & Merchant Fees",
+  "T0404": "Rent",
+  "T0405": "Cloud Hosting",
+  "T0406": "Software & Subscriptions",
+  "T0407": "Office Supplies",
+  "T0408": "Meals",
+  "T0409": "Savings Account",
+  "T0410": "Service Revenue",
+  "T0411": "Cloud Hosting",
+  "T0412": "Advertising & Marketing",
+  "T0413": "Loan Payable",
+  "T0414": "Software & Subscriptions",
+  "T0415": "Meals",
+  "T0416": "Advertising & Marketing",
+  "T0417": "Software & Subscriptions",
+  "T0418": "Meals",
+  "T0419": "Software & Subscriptions",
+  "T0420": "Service Revenue",
+  "T0421": "Service Revenue",
+  "T0422": "Office Supplies",
+  "T0423": "Insurance",
+  "T0424": "Service Revenue",
+  "T0425": "Software & Subscriptions",
+  "T0426": "Travel",
+  "T0427": "Software & Subscriptions",
+  "T0428": "Service Revenue",
+  "T0429": "Software & Subscriptions",
+  "T0430": "Office Supplies",
+  "T0431": "Wages",
+  "T0432": "Payroll Taxes",
+  "T0433": "Professional Fees",
+  "T0434": "Meals",
+  "T0435": "Owner Draws",
+  "T0436": "Utilities",
+  "T0437": "Utilities",
+  "T0438": "Service Revenue",
+  "T0439": "Service Revenue",
+  "T0440": "Meals",
+  "T0441": "Contractors",
+  "T0442": "Meals",
+  "T0443": "Professional Fees",
+  "T0444": "Owner Draws",
+  "T0445": "Interest Income",
+  "T0446": "Wages",
+  "T0447": "Payroll Taxes",
+  "T0448": "Bank & Merchant Fees",
+  "T0449": "Rent",
+  "T0450": "Service Revenue",
+  "T0451": "Cloud Hosting",
+  "T0452": "Software & Subscriptions",
+  "T0453": "Service Revenue",
+  "T0454": "Cloud Hosting",
+  "T0455": "Meals",
+  "T0456": "Meals",
+  "T0457": "Loan Payable",
+  "T0458": "Software & Subscriptions",
+  "T0459": "Advertising & Marketing",
+  "T0460": "Travel",
+  "T0461": "Service Revenue",
+  "T0462": "Software & Subscriptions",
+  "T0463": "Meals",
+  "T0464": "Software & Subscriptions",
+  "T0465": "Service Revenue",
+  "T0466": "Software & Subscriptions",
+  "T0467": "Software & Subscriptions",
+  "T0468": "Office Supplies",
+  "T0469": "Software & Subscriptions",
+  "T0470": "Travel",
+  "T0471": "Wages",
+  "T0472": "Payroll Taxes",
+  "T0473": "Professional Fees",
+  "T0474": "Utilities",
+  "T0475": "Meals",
+  "T0476": "Utilities",
+  "T0477": "Meals",
+  "T0478": "Contractors",
+  "T0479": "Travel",
+  "T0480": "Service Revenue",
+  "T0481": "Service Revenue",
+  "T0482": "Savings Account",
+  "T0483": "Bank & Merchant Fees",
+  "T0484": "Owner Draws",
+  "T0485": "Interest Income",
+  "T0486": "Wages",
+  "T0487": "Payroll Taxes",
+  "T0488": "Bank & Merchant Fees",
+  "T0489": "Rent",
+  "T0490": "Cloud Hosting",
+  "T0491": "Software & Subscriptions",
+  "T0492": "Bank & Merchant Fees",
+  "T0493": "Cloud Hosting",
+  "T0494": "Travel",
+  "T0495": "Loan Payable",
+  "T0496": "Software & Subscriptions",
+  "T0497": "Advertising & Marketing",
+  "T0498": "Software & Subscriptions",
+  "T0499": "Office Supplies",
+  "T0500": "Service Revenue",
+  "T0501": "Software & Subscriptions",
+  "T0502": "Travel",
+  "T0503": "Software & Subscriptions",
+  "T0504": "Service Revenue",
+  "T0505": "Software & Subscriptions",
+  "T0506": "Meals",
+  "T0507": "Software & Subscriptions",
+  "T0508": "Wages",
+  "T0509": "Payroll Taxes",
+  "T0510": "Professional Fees",
+  "T0511": "Service Revenue",
+  "T0512": "Utilities",
+  "T0513": "Service Revenue",
+  "T0514": "Office Supplies",
+  "T0515": "Utilities",
+  "T0516": "Contractors",
+  "T0517": "Service Revenue",
+  "T0518": "Service Revenue",
+  "T0519": "Meals",
+  "T0520": "Meals",
+  "T0521": "Service Revenue",
+  "T0522": "Meals",
+  "T0523": "Owner Draws",
+  "T0524": "Interest Income",
+  "T0525": "Wages",
+  "T0526": "Payroll Taxes",
+  "T0527": "Bank & Merchant Fees"
+ }
+}
