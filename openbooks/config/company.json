@@ -1,0 +1,27 @@
+{
+  "business_name": "Northwind Studio LLC",
+  "period_start": "2026-01-01",
+  "period_end": "2026-12-31",
+  "_opening_balances_note": "Balances as of period_start, keyed by account code, entered as POSITIVE natural amounts (the ledger applies debit/credit signs). Assets must equal liabilities + equity.",
+  "opening_balances": {
+    "1000": 48500.00,
+    "1010": 20000.00,
+    "1500": 18000.00,
+    "1510": 6000.00,
+    "2100": 35000.00,
+    "3000": 25000.00,
+    "3900": 20500.00
+  },
+  "loan": {
+    "account": "2100",
+    "annual_interest_rate": 0.075
+  },
+  "depreciation": {
+    "opening_equipment_annual_depreciation": 3600.00,
+    "new_equipment_useful_life_months": 36
+  },
+  "categorizer": {
+    "batch_size": 40,
+    "review_confidence_threshold": 0.8
+  }
+}

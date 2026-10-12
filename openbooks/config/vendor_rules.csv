@@ -1,0 +1,15 @@
+pattern,category,direction,note
+^GUSTO NET PAY,Wages,out,Payroll provider net pay
+^GUSTO TAX,Payroll Taxes,out,Payroll provider tax remittance
+^GUSTO FEE,Professional Fees,out,Payroll processing fee
+RIVERSIDE PROPERTIES,Rent,out,Landlord
+^SBA LOAN PMT,Loan Payable,out,Monthly SBA loan payment (ledger splits principal/interest)
+^ADOBE \*,Software & Subscriptions,out,
+^SLACK ,Software & Subscriptions,out,
+^FIGMA,Software & Subscriptions,out,
+^ZOOM\.US,Software & Subscriptions,out,
+^INTUIT \*QBOOKS,Software & Subscriptions,out,
+^COMCAST BUSINESS,Utilities,out,
+^PEPCO,Utilities,out,
+MONTHLY (SERVICE|MAINTENANCE) FEE,Bank & Merchant Fees,out,
+^INTEREST PAYMENT,Interest Income,in,

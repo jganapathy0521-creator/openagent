@@ -1,0 +1,528 @@
+txn_id,category
+T0001,Rent
+T0002,Service Revenue
+T0003,Cloud Hosting
+T0004,Software & Subscriptions
+T0005,Travel
+T0006,Service Revenue
+T0007,Cloud Hosting
+T0008,Meals
+T0009,Loan Payable
+T0010,Software & Subscriptions
+T0011,Office Supplies
+T0012,Office Supplies
+T0013,Advertising & Marketing
+T0014,Meals
+T0015,Software & Subscriptions
+T0016,Service Revenue
+T0017,Software & Subscriptions
+T0018,Insurance
+T0019,Service Revenue
+T0020,Software & Subscriptions
+T0021,Office Supplies
+T0022,Software & Subscriptions
+T0023,Travel
+T0024,Meals
+T0025,Software & Subscriptions
+T0026,Wages
+T0027,Payroll Taxes
+T0028,Professional Fees
+T0029,Owner Draws
+T0030,Service Revenue
+T0031,Utilities
+T0032,Office Supplies
+T0033,Travel
+T0034,Utilities
+T0035,Service Revenue
+T0036,Meals
+T0037,Bank & Merchant Fees
+T0038,Contractors
+T0039,Meals
+T0040,Service Revenue
+T0041,Professional Fees
+T0042,Meals
+T0043,Service Revenue
+T0044,Travel
+T0045,Meals
+T0046,Owner Draws
+T0047,Interest Income
+T0048,Wages
+T0049,Payroll Taxes
+T0050,Bank & Merchant Fees
+T0051,Rent
+T0052,Cloud Hosting
+T0053,Travel
+T0054,Meals
+T0055,Service Revenue
+T0056,Software & Subscriptions
+T0057,Cloud Hosting
+T0058,Travel
+T0059,Loan Payable
+T0060,Software & Subscriptions
+T0061,Meals
+T0062,Meals
+T0063,Advertising & Marketing
+T0064,Software & Subscriptions
+T0065,Travel
+T0066,Travel
+T0067,Meals
+T0068,Software & Subscriptions
+T0069,Software & Subscriptions
+T0070,Meals
+T0071,Service Revenue
+T0072,Software & Subscriptions
+T0073,Service Revenue
+T0074,Software & Subscriptions
+T0075,Office Supplies
+T0076,Service Revenue
+T0077,Wages
+T0078,Payroll Taxes
+T0079,Professional Fees
+T0080,Service Revenue
+T0081,Advertising & Marketing
+T0082,Utilities
+T0083,Meals
+T0084,Utilities
+T0085,Service Revenue
+T0086,Service Revenue
+T0087,Meals
+T0088,Contractors
+T0089,Service Revenue
+T0090,Meals
+T0091,Savings Account
+T0092,Interest Income
+T0093,Wages
+T0094,Payroll Taxes
+T0095,Bank & Merchant Fees
+T0096,Owner Draws
+T0097,Rent
+T0098,Cloud Hosting
+T0099,Service Revenue
+T0100,Software & Subscriptions
+T0101,Cloud Hosting
+T0102,Service Revenue
+T0103,Loan Payable
+T0104,Software & Subscriptions
+T0105,Advertising & Marketing
+T0106,Software & Subscriptions
+T0107,Meals
+T0108,Software & Subscriptions
+T0109,Office Supplies
+T0110,Software & Subscriptions
+T0111,Software & Subscriptions
+T0112,Meals
+T0113,Service Revenue
+T0114,Software & Subscriptions
+T0115,Travel
+T0116,Service Revenue
+T0117,Wages
+T0118,Payroll Taxes
+T0119,Professional Fees
+T0120,Owner Contributions
+T0121,Utilities
+T0122,Office Supplies
+T0123,Meals
+T0124,Utilities
+T0125,Service Revenue
+T0126,Office Supplies
+T0127,Meals
+T0128,Contractors
+T0129,Service Revenue
+T0130,Service Revenue
+T0131,Office Supplies
+T0132,Advertising & Marketing
+T0133,Travel
+T0134,Bank & Merchant Fees
+T0135,Meals
+T0136,Owner Draws
+T0137,Interest Income
+T0138,Wages
+T0139,Payroll Taxes
+T0140,Bank & Merchant Fees
+T0141,Rent
+T0142,Cloud Hosting
+T0143,Software & Subscriptions
+T0144,Service Revenue
+T0145,Cloud Hosting
+T0146,Travel
+T0147,Loan Payable
+T0148,Software & Subscriptions
+T0149,Office Supplies
+T0150,Meals
+T0151,Advertising & Marketing
+T0152,Meals
+T0153,Software & Subscriptions
+T0154,Office Supplies
+T0155,Travel
+T0156,Meals
+T0157,Software & Subscriptions
+T0158,Meals
+T0159,Insurance
+T0160,Software & Subscriptions
+T0161,Software & Subscriptions
+T0162,Travel
+T0163,Service Revenue
+T0164,Software & Subscriptions
+T0165,Wages
+T0166,Payroll Taxes
+T0167,Professional Fees
+T0168,Meals
+T0169,Contractors
+T0170,Owner Draws
+T0171,Advertising & Marketing
+T0172,Utilities
+T0173,Office Supplies
+T0174,Travel
+T0175,Service Revenue
+T0176,Utilities
+T0177,Meals
+T0178,Contractors
+T0179,Service Revenue
+T0180,Service Revenue
+T0181,Professional Fees
+T0182,Meals
+T0183,Owner Draws
+T0184,Interest Income
+T0185,Wages
+T0186,Payroll Taxes
+T0187,Bank & Merchant Fees
+T0188,Rent
+T0189,Service Revenue
+T0190,Service Revenue
+T0191,Cloud Hosting
+T0192,Software & Subscriptions
+T0193,Cloud Hosting
+T0194,Travel
+T0195,Loan Payable
+T0196,Software & Subscriptions
+T0197,Advertising & Marketing
+T0198,Software & Subscriptions
+T0199,Service Revenue
+T0200,Service Revenue
+T0201,Software & Subscriptions
+T0202,Meals
+T0203,Software & Subscriptions
+T0204,Software & Subscriptions
+T0205,Travel
+T0206,Service Revenue
+T0207,Office Supplies
+T0208,Meals
+T0209,Software & Subscriptions
+T0210,Wages
+T0211,Payroll Taxes
+T0212,Professional Fees
+T0213,Service Revenue
+T0214,Travel
+T0215,Utilities
+T0216,Equipment
+T0217,Service Revenue
+T0218,Utilities
+T0219,Office Supplies
+T0220,Bank & Merchant Fees
+T0221,Meals
+T0222,Contractors
+T0223,Service Revenue
+T0224,Savings Account
+T0225,Meals
+T0226,Office Supplies
+T0227,Owner Draws
+T0228,Interest Income
+T0229,Wages
+T0230,Payroll Taxes
+T0231,Bank & Merchant Fees
+T0232,Rent
+T0233,Service Revenue
+T0234,Cloud Hosting
+T0235,Software & Subscriptions
+T0236,Service Revenue
+T0237,Cloud Hosting
+T0238,Loan Payable
+T0239,Software & Subscriptions
+T0240,Professional Fees
+T0241,Service Revenue
+T0242,Service Revenue
+T0243,Advertising & Marketing
+T0244,Service Revenue
+T0245,Software & Subscriptions
+T0246,Service Revenue
+T0247,Software & Subscriptions
+T0248,Software & Subscriptions
+T0249,Travel
+T0250,Meals
+T0251,Software & Subscriptions
+T0252,Meals
+T0253,Software & Subscriptions
+T0254,Travel
+T0255,Wages
+T0256,Payroll Taxes
+T0257,Professional Fees
+T0258,Office Supplies
+T0259,Service Revenue
+T0260,Utilities
+T0261,Travel
+T0262,Utilities
+T0263,Meals
+T0264,Contractors
+T0265,Service Revenue
+T0266,Service Revenue
+T0267,Office Supplies
+T0268,Meals
+T0269,Meals
+T0270,Owner Draws
+T0271,Interest Income
+T0272,Wages
+T0273,Payroll Taxes
+T0274,Bank & Merchant Fees
+T0275,Rent
+T0276,Cloud Hosting
+T0277,Software & Subscriptions
+T0278,Cloud Hosting
+T0279,Loan Payable
+T0280,Software & Subscriptions
+T0281,Office Supplies
+T0282,Service Revenue
+T0283,Advertising & Marketing
+T0284,Service Revenue
+T0285,Software & Subscriptions
+T0286,Meals
+T0287,Meals
+T0288,Software & Subscriptions
+T0289,Service Revenue
+T0290,Insurance
+T0291,Software & Subscriptions
+T0292,Software & Subscriptions
+T0293,Meals
+T0294,Service Revenue
+T0295,Software & Subscriptions
+T0296,Wages
+T0297,Payroll Taxes
+T0298,Professional Fees
+T0299,Owner Draws
+T0300,Service Revenue
+T0301,Utilities
+T0302,Office Supplies
+T0303,Utilities
+T0304,Service Revenue
+T0305,Contractors
+T0306,Contractors
+T0307,Service Revenue
+T0308,Travel
+T0309,Professional Fees
+T0310,Advertising & Marketing
+T0311,Travel
+T0312,Owner Draws
+T0313,Interest Income
+T0314,Wages
+T0315,Payroll Taxes
+T0316,Bank & Merchant Fees
+T0317,Rent
+T0318,Cloud Hosting
+T0319,Service Revenue
+T0320,Software & Subscriptions
+T0321,Service Revenue
+T0322,Service Revenue
+T0323,Cloud Hosting
+T0324,Loan Payable
+T0325,Software & Subscriptions
+T0326,Advertising & Marketing
+T0327,Service Revenue
+T0328,Software & Subscriptions
+T0329,Office Supplies
+T0330,Meals
+T0331,Meals
+T0332,Software & Subscriptions
+T0333,Advertising & Marketing
+T0334,Meals
+T0335,Meals
+T0336,Office Supplies
+T0337,Travel
+T0338,Software & Subscriptions
+T0339,Travel
+T0340,Software & Subscriptions
+T0341,Service Revenue
+T0342,Software & Subscriptions
+T0343,Wages
+T0344,Payroll Taxes
+T0345,Professional Fees
+T0346,Utilities
+T0347,Service Revenue
+T0348,Utilities
+T0349,Travel
+T0350,Service Revenue
+T0351,Contractors
+T0352,Office Supplies
+T0353,Office Supplies
+T0354,Service Revenue
+T0355,Savings Account
+T0356,Owner Draws
+T0357,Interest Income
+T0358,Wages
+T0359,Payroll Taxes
+T0360,Bank & Merchant Fees
+T0361,Rent
+T0362,Cloud Hosting
+T0363,Office Supplies
+T0364,Service Revenue
+T0365,Software & Subscriptions
+T0366,Cloud Hosting
+T0367,Travel
+T0368,Loan Payable
+T0369,Software & Subscriptions
+T0370,Office Supplies
+T0371,Advertising & Marketing
+T0372,Software & Subscriptions
+T0373,Software & Subscriptions
+T0374,Software & Subscriptions
+T0375,Software & Subscriptions
+T0376,Service Revenue
+T0377,Office Supplies
+T0378,Office Supplies
+T0379,Software & Subscriptions
+T0380,Wages
+T0381,Payroll Taxes
+T0382,Professional Fees
+T0383,Advertising & Marketing
+T0384,Meals
+T0385,Meals
+T0386,Service Revenue
+T0387,Travel
+T0388,Meals
+T0389,Service Revenue
+T0390,Utilities
+T0391,Utilities
+T0392,Service Revenue
+T0393,Contractors
+T0394,Service Revenue
+T0395,Contractors
+T0396,Service Revenue
+T0397,Service Revenue
+T0398,Equipment
+T0399,Owner Draws
+T0400,Interest Income
+T0401,Wages
+T0402,Payroll Taxes
+T0403,Bank & Merchant Fees
+T0404,Rent
+T0405,Cloud Hosting
+T0406,Software & Subscriptions
+T0407,Office Supplies
+T0408,Meals
+T0409,Savings Account
+T0410,Service Revenue
+T0411,Cloud Hosting
+T0412,Advertising & Marketing
+T0413,Loan Payable
+T0414,Software & Subscriptions
+T0415,Meals
+T0416,Advertising & Marketing
+T0417,Software & Subscriptions
+T0418,Meals
+T0419,Software & Subscriptions
+T0420,Service Revenue
+T0421,Service Revenue
+T0422,Office Supplies
+T0423,Insurance
+T0424,Service Revenue
+T0425,Software & Subscriptions
+T0426,Travel
+T0427,Software & Subscriptions
+T0428,Service Revenue
+T0429,Software & Subscriptions
+T0430,Office Supplies
+T0431,Wages
+T0432,Payroll Taxes
+T0433,Professional Fees
+T0434,Meals
+T0435,Owner Draws
+T0436,Utilities
+T0437,Utilities
+T0438,Service Revenue
+T0439,Service Revenue
+T0440,Meals
+T0441,Contractors
+T0442,Meals
+T0443,Professional Fees
+T0444,Owner Draws
+T0445,Interest Income
+T0446,Wages
+T0447,Payroll Taxes
+T0448,Bank & Merchant Fees
+T0449,Rent
+T0450,Service Revenue
+T0451,Cloud Hosting
+T0452,Software & Subscriptions
+T0453,Service Revenue
+T0454,Cloud Hosting
+T0455,Meals
+T0456,Meals
+T0457,Loan Payable
+T0458,Software & Subscriptions
+T0459,Advertising & Marketing
+T0460,Travel
+T0461,Service Revenue
+T0462,Software & Subscriptions
+T0463,Meals
+T0464,Software & Subscriptions
+T0465,Service Revenue
+T0466,Software & Subscriptions
+T0467,Software & Subscriptions
+T0468,Office Supplies
+T0469,Software & Subscriptions
+T0470,Travel
+T0471,Wages
+T0472,Payroll Taxes
+T0473,Professional Fees
+T0474,Utilities
+T0475,Meals
+T0476,Utilities
+T0477,Meals
+T0478,Contractors
+T0479,Travel
+T0480,Service Revenue
+T0481,Service Revenue
+T0482,Savings Account
+T0483,Bank & Merchant Fees
+T0484,Owner Draws
+T0485,Interest Income
+T0486,Wages
+T0487,Payroll Taxes
+T0488,Bank & Merchant Fees
+T0489,Rent
+T0490,Cloud Hosting
+T0491,Software & Subscriptions
+T0492,Bank & Merchant Fees
+T0493,Cloud Hosting
+T0494,Travel
+T0495,Loan Payable
+T0496,Software & Subscriptions
+T0497,Advertising & Marketing
+T0498,Software & Subscriptions
+T0499,Office Supplies
+T0500,Service Revenue
+T0501,Software & Subscriptions
+T0502,Travel
+T0503,Software & Subscriptions
+T0504,Service Revenue
+T0505,Software & Subscriptions
+T0506,Meals
+T0507,Software & Subscriptions
+T0508,Wages
+T0509,Payroll Taxes
+T0510,Professional Fees
+T0511,Service Revenue
+T0512,Utilities
+T0513,Service Revenue
+T0514,Office Supplies
+T0515,Utilities
+T0516,Contractors
+T0517,Service Revenue
+T0518,Service Revenue
+T0519,Meals
+T0520,Meals
+T0521,Service Revenue
+T0522,Meals
+T0523,Owner Draws
+T0524,Interest Income
+T0525,Wages
+T0526,Payroll Taxes
+T0527,Bank & Merchant Fees

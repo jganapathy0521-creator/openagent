@@ -1,0 +1,29 @@
+code,name,statement,section,type,categorizable,description
+1000,Cash - Operating Checking,BS,Current Assets,asset,no,The bank account being imported. Never assign this as a category.
+1010,Savings Account,BS,Current Assets,asset,yes,Transfers between the operating checking account and the business's own savings account (in either direction).
+1500,Equipment,BS,Fixed Assets,asset,yes,"Computers, monitors, furniture and other equipment costing over $1,000 with a multi-year life."
+1510,Accumulated Depreciation,BS,Fixed Assets,contra_asset,no,Year-end adjustment only.
+2100,Loan Payable,BS,Liabilities,liability,yes,Scheduled payments on a business loan (bank or SBA). The ledger splits each payment into principal and interest.
+3000,Owner's Capital,BS,Equity,equity,no,Opening owner's capital.
+3100,Owner Contributions,BS,Equity,equity,yes,Money the owner deposits into the business from personal funds.
+3200,Owner Draws,BS,Equity,equity,yes,"Money the owner takes out: transfers to the owner's personal accounts, and the owner's personal income tax payments (IRS or state estimated taxes) for a pass-through LLC."
+3900,Retained Earnings,BS,Equity,equity,no,Accumulated profit from prior years.
+4000,Service Revenue,PL,Revenue,revenue,yes,"Customer payments: client ACH credits, incoming wires, Stripe/Square/PayPal payouts, deposited checks from clients."
+4900,Interest Income,PL,Other Income,other_income,yes,Interest paid by the bank on account balances.
+5000,Wages,PL,Operating Expenses,expense,yes,Employee net pay (e.g. payroll provider NET PAY debits).
+5010,Payroll Taxes,PL,Operating Expenses,expense,yes,Payroll tax remittances made through the payroll provider or EFTPS.
+5100,Contractors,PL,Operating Expenses,expense,yes,"Payments to freelancers and independent contractors (Zelle/ACH to individuals with an invoice memo, Upwork, Fiverr)."
+5200,Rent,PL,Operating Expenses,expense,yes,Office or studio rent.
+5300,Utilities,PL,Operating Expenses,expense,yes,"Electricity, gas, water, internet and business phone service."
+5400,Software & Subscriptions,PL,Operating Expenses,expense,yes,"SaaS and software subscriptions (Adobe, Google Workspace, Slack, Figma, Zoom, QuickBooks, Apple iCloud)."
+5500,Cloud Hosting,PL,Operating Expenses,expense,yes,"Infrastructure: AWS, Google Cloud, Azure, Vercel, DigitalOcean."
+5600,Office Supplies,PL,Operating Expenses,expense,yes,"Small office purchases (Amazon Marketplace, Staples, Office Depot) and their refunds. Refunds are positive amounts in this same category."
+5700,Advertising & Marketing,PL,Operating Expenses,expense,yes,"Google Ads, Meta/Facebook ads, LinkedIn ads and job posts, sponsorships, promotional printing."
+5800,Travel,PL,Operating Expenses,expense,yes,"Airfare, hotels, rental cars, rideshare/taxi rides (Uber trips, Lyft) and parking."
+5810,Meals,PL,Operating Expenses,expense,yes,"Restaurants, coffee shops and food delivery (Uber Eats, DoorDash, Grubhub)."
+5900,Insurance,PL,Operating Expenses,expense,yes,"Business insurance premiums (general liability, professional liability, property)."
+6000,Professional Fees,PL,Operating Expenses,expense,yes,"Accountants/CPAs, lawyers, legal filing services, and payroll processing fees."
+6100,Bank & Merchant Fees,PL,Operating Expenses,expense,yes,"Bank account maintenance fees, wire fees, overdraft fees, card processing fees billed separately."
+6200,Interest Expense,PL,Other Expenses,other_expense,no,Computed by the ledger from loan payments.
+6300,Depreciation Expense,PL,Operating Expenses,expense,no,Year-end adjustment computed by the ledger.
+6900,Uncategorized,PL,Operating Expenses,expense,yes,Use ONLY when the transaction cannot be identified from its description (e.g. a bare check number or an unexplained personal payment app transfer). It is sent for human review.
