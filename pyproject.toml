@@ -1,7 +1,7 @@
 [project]
 name = "openagent"
 version = "0.1.0"
-description = "AI Agents for Enterprise — openrestaurant/ (restaurant-booking demo), open-deep-research/ (deep research agent tutorials) and openbooks/ (AI bookkeeping + LangSmith evals), one combined codespace environment"
+description = "AI Agents for Enterprise — openrestaurant/ (restaurant-booking demo) and open-deep-research/ (deep research agent tutorials), one combined codespace environment"
 requires-python = ">=3.11"
 dependencies = [
     # open-deep-research
